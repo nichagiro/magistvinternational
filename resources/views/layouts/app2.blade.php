@@ -13,7 +13,6 @@
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-    @livewireStyles
 </head>
 <body>
     <div id="app">
@@ -64,10 +63,9 @@
                 </div>
             </div>
         </nav>
-        <main>
-            {{ $slot }}
+        <main class="p-4">
+            @yield('content')
         </main>
     </div>
-    @livewireScripts
 </body>
 </html>
