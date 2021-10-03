@@ -87,9 +87,11 @@
       <nav id="menu" class="main-nav float-right d-none d-lg-block">
         <ul>
           <li class="active"><a href="#intro">Inicio</a></li>
-          <li><a href="https://www.magistvglobal.com/descargar/">Aplicación</a></li>
           <li><a href="#services">Deportes</a></li>
           <li><a href="#why-us">Suscripción</a></li>
+          <li><a data-toggle="modal" data-target="#app_magis" class="text-danger font-weight-bold hand d-none d-lg-block">Aplicación</a></li>
+          {{-- movil --}}
+          <li><a download href="{{ asset('app/magis_v3.9.1_mobile.apk') }}" class="text-danger font-weight-bold hand d-lg-none">Aplicación</a></li>
         </ul>
       </nav><!-- .main-nav -->
     </div>
@@ -105,6 +107,7 @@
         <div>
           {{-- modal --}}
           <button data-toggle="modal" data-target="#app_magis" class="btn-get-started d-none d-lg-block">Descargar</button>
+          {{-- movil --}}
           <a class="d-lg-none btn-get-started" download href="{{ asset('app/magis_v3.9.1_mobile.apk') }}">Descargar</a>
           <x-modal ok="false" length="xl" title="Descargar MagisTV" id="app_magis">
             <div class="row p-3 justify-content-around">
@@ -224,8 +227,8 @@
         <div class="row">
           <div class="col-md-6 col-lg-5 offset-lg-1 wow bounceInUp" data-wow-delay="0.2s" data-wow-duration="1.4s">
               <p class="description">
-                Reune a tus amigos y familiares para ver sus evento deportivos favoritos, En MagisTV tenemos una gran cantidad de 
-                canales de deportes, y canales de Pases exclusivos totalmente gratis en cualquiera de nuestros planes.
+                Reúne a tus amigos y familiares para ver sus eventos deportivos favoritos, En MagisTV tenemos una gran
+                cantidad de canales de deportes, y canales de Pases exclusivos totalmente gratis en cualquiera de nuestros planes.
               </p>
               <div class="row justify-content-center">
                 <img loading="lazy" class="col-8 pt-xs-2 col-sm-4"  src="{{ asset('img/nba.webp') }}" alt="deporte">

@@ -1476,6 +1476,10 @@ h6 {
 
 /* NICOLAS */
 
+.hand:hover {
+    cursor: pointer;
+}
+
 .ul-precios {
     position: relative;
     display: block;
