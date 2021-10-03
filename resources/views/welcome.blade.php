@@ -7,6 +7,14 @@
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <meta content="magis tv international, series, peliculas, deportes, premium, netflix, prime, magi" name="keywords">
   <meta content="magis tv international, disfruta del mejor contenido en full calidad, peliculas, series, deportes, canales en vivo y premium, netflix, prime, disney plus, entre otros." name="description">
+  <meta name="subject" content="Productos cosmeticos">
+  <meta name="author" content="Nicolas Chamorro Giron">
+  <meta name="copyright" content="© overweb">
+  <meta name="language" content="es">
+  <meta name="revisit-after" content="7 days">
+  <meta name="robots" content="index, follow">
+  <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" >
+  <link rel="canonical" href="https://magistvinternational.com/">
   {{-- TWITER SEO --}}
   <meta name="twitter:card" content="summary" />	
   <meta name="twitter:title" content="MAGIS TV INTERNATIONAL | SERIES | PELICULAS | DEPORTES | PREMIUM" >
