@@ -9,6 +9,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Auth::routes();
+// Auth::routes();
 
 Route::get('/dashboard', dashboard::class)->name('dashboard');;

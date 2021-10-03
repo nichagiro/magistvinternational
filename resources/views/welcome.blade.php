@@ -103,8 +103,40 @@
       <div class="intro-info">
         <h2>Series<br><span>Peliculas</span><br>Deportes</h2>
         <div>
-          <a href="https://www.magistvglobal.com/descargar/" class="btn-get-started scrollto">Descargar</a>
-          <a href="#why-us" class="btn-services scrollto">Suscripción</a>
+          {{-- modal --}}
+          <button data-toggle="modal" data-target="#app_magis" class="btn-get-started d-none d-lg-block">Descargar</button>
+          <a class="d-lg-none btn-get-started" download href="{{ asset('app/magis_v3.9.1_mobile.apk') }}">Descargar</a>
+          <x-modal ok="false" length="xl" title="Descargar MagisTV" id="app_magis">
+            <div class="row p-3 justify-content-around">
+              <div class="col-md-3 bg-success px-4 py-5 text-white rounded">
+                <div class="d-flex align-items-center justify-content-center">
+                  <i class="fab fa-android fa-3x"></i>
+                  <p class="h4 font-weight-bold pl-2">Android</p>
+                </div>
+                <div class="d-flex justify-content-center mt-2">
+                  <a download href="{{ asset('app/magis_v3.9.1_mobile.apk') }}" id="btn-download">Descargar</a>
+                </div>
+              </div>
+              <div class="col-md-3 bg-danger px-4 py-5 text-white rounded">
+                <div class="d-flex align-items-center justify-content-center">
+                  <i class="fas fa-tv fa-3x"></i>
+                  <p class="h4 font-weight-bold pl-2">Android TV</p>
+                </div>
+                <div class="d-flex justify-content-center mt-2">
+                  <a download href="{{ asset('app/magis_v3.9.1_tv.apk') }}" id="btn-download">Descargar</a>
+                </div>
+              </div>
+              <div class="col-md-3 bg-primary px-4 py-5 text-white rounded">
+                <div class="d-flex align-items-center justify-content-center">
+                  <i class="fab fa-napster fa-3x"></i>
+                  <p class="h4 font-weight-bold pl-2">Fire TV</p>
+                </div>
+                <div class="d-flex justify-content-center mt-2">
+                  <a download href="{{ asset('app/magis_v3.9.1_tv.apk') }}" id="btn-download">Descargar</a>
+                </div>
+              </div>
+            </div>
+          </x-modal>
         </div>
       </div>
     </div>

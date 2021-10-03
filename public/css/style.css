@@ -243,6 +243,26 @@ h6 {
     color: #fff;
 }
 
+#btn-download {
+    border: 2px solid #fff;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 10px 32px;
+    border-radius: 50px;
+    transition: 0.5s;
+    margin: 0 20px 20px 0;
+    color: #fff;
+}
+
+#btn-download:hover {
+    background: rgb(17, 17, 17);
+    border-color: rgb(43, 42, 42);
+    color: #fff;
+}
+
 
 /*--------------------------------------------------------------
 # Navigation Menu
