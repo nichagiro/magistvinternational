@@ -4,7 +4,7 @@ namespace App\View\Components;
 
 use Illuminate\View\Component;
 
-class modal extends Component
+class modal_xl extends Component
 {
     /**
      * Create a new component instance.
@@ -14,7 +14,6 @@ class modal extends Component
 
     public $title;
     public $id;
-    public $length=NULL;
     public $ok;
     public $ok_name;
 
@@ -24,10 +23,6 @@ class modal extends Component
         $this->id = $id;
         $this->ok = $ok;
         $this->ok_name = $ok_name;
-        
-        if($length != ""){
-            $this->length = "modal-".$length;
-        }
 
     }
 

@@ -109,7 +109,7 @@
           <button data-toggle="modal" data-target="#app_magis" class="btn-get-started d-none d-lg-block">Descargar</button>
           {{-- movil --}}
           <a class="d-lg-none btn-get-started" download href="{{ asset('app/magis_v3.9.1_mobile.apk') }}">Descargar</a>
-          <x-modal ok="false" length="xl" title="Descargar MagisTV" id="app_magis">
+          <x-modal_xl ok="false" length="xl" title="Descargar MagisTV" id="app_magis">
             <div class="row p-3 justify-content-around">
               <div class="col-md-3 bg-success px-4 py-5 text-white rounded">
                 <div class="d-flex align-items-center justify-content-center">
