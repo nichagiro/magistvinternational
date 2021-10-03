@@ -3,7 +3,7 @@
 <head>
   {{-- SEO BASIC --}}
   <meta charset="utf-8">
-  <title>MAGIS TV INTERNATIONAL | SERIES | PELICULAS | DEPORTES | PREMIUM</title>
+  <title>MAGIS TV INTERNATIONAL | SERIES | PELICULAS | DEPORTES |</title>
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <meta content="magis tv international, series, peliculas, deportes, premium, netflix, prime, magi" name="keywords">
   <meta content="magis tv international, disfruta del mejor contenido en full calidad, peliculas, series, deportes, canales en vivo y premium, netflix, prime, disney plus, entre otros." name="description">
