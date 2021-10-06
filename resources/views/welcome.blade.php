@@ -234,15 +234,15 @@
         <p class="d-sm-none h1 pb-3 text-white">+ DE 80 CANALES DE DEPORTES DISPONIBLES.</p>
         <div class="row">
           <div class="col-md-6 col-lg-5 offset-lg-1 wow bounceInUp" data-wow-delay="0.2s" data-wow-duration="1.4s">
-              <p class="description">
-                Reúne a tus amigos y familiares para ver sus eventos deportivos favoritos, En MagisTV tenemos una gran
-                cantidad de canales de deportes, y canales de Pases exclusivos totalmente gratis en cualquiera de nuestros planes.
-              </p>
-              <div class="row justify-content-center">
-                <img loading="lazy" class="col-8 pt-xs-2 col-sm-4"  src="{{ asset('img/nba.webp') }}" alt="deporte">
-                <img loading="lazy" class="col-8 pt-xs-2 col-sm-4"  src="{{ asset('img/game pass.webp') }}" alt="deporte">
-                <img loading="lazy" class="col-8 pt-xs-2 col-sm-4"  src="{{ asset('img/mlb.webp') }}" alt="deporte">
-              </div>
+            <p class="description">
+              Reúne a tus amigos y familiares para ver sus eventos deportivos favoritos, En MagisTV tenemos una gran
+              cantidad de canales de deportes, y canales de Pases exclusivos totalmente gratis en cualquiera de nuestros planes.
+            </p>
+            <div class="row justify-content-center">
+              <img loading="lazy" class="col-8 pt-xs-2 col-sm-4"  src="{{ asset('img/nba.webp') }}" alt="deporte">
+              <img loading="lazy" class="col-8 pt-xs-2 col-sm-4"  src="{{ asset('img/game pass.webp') }}" alt="deporte">
+              <img loading="lazy" class="col-8 pt-xs-2 col-sm-4"  src="{{ asset('img/mlb.webp') }}" alt="deporte">
+            </div>
           </div>
           <div class="col-md-6 col-lg-6 wow bounceInUp" data-wow-delay="0.2s" data-wow-duration="1.4s">
             <div class="row justify-content-center">
@@ -302,7 +302,6 @@
                     <div class="col-8 d-flex justify-content-center">
                       <img loading="lazy" src="{{ asset('img/direct tv.webp')}}"  class="img-fluid rounded" alt="canal">
                     </div>
-                  </div>
                   </div>
                 </div>
               </div>
@@ -518,6 +517,7 @@
   <script src="{{ asset('lib/wow/wow.min.js') }}"></script>
   <script src="{{ asset('lib/waypoints/waypoints.min.js') }}"></script>
   <script defer src="{{ asset('lib/owlcarousel/owl.carousel.min.js') }}"></script>
+  <script defer src="{{ asset('lib/counterup/counterup.min.js') }}"></script>
   <!-- Template Main Javascript File -->
   <script defer src="{{ asset('') }}js/main.js"></script>
   {{-- Iconos --}}

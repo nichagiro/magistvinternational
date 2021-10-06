@@ -718,8 +718,8 @@ h6 {
 }
 
 #why-us .card:hover {
-    background: #003b7a;
-    border-color: #003b7a;
+    background: black;
+    border-color: blanchedalmond;
 }
 
 #why-us .card i {
@@ -1247,7 +1247,7 @@ h6 {
 --------------------------------------------------------------*/
 
 #footer {
-    background: #00428a;
+    background: var(--color-theme);
     padding: 0 0 30px 0;
     color: #eee;
     font-size: 14px;
