@@ -82,13 +82,13 @@
 <body>
 {{-- HEADER --}}
   <header id="header" class="fixed-top">
-    <div class="container">
-      <div class="logo float-left">
+    <div class="container d-flex align-items-center justify-content-between">
+      <div class="logo float-left row d-flex align-items-center">
         <!-- Uncomment below if you prefer to use an image logo -->
         <h1 class="text-light">
-          <a href="#header">
-            <span id="title" class="d-none d-md-block text-white">MAGISTVINTERNATIONAL</span>
-            <span id="title" class="d-md-none text-white">MAGIS TV</span>
+          <a href="#header" class="row d-flex align-items-center">
+            <img src="{{ asset('img/logoglobal.webp') }}" alt="magistv" class="img-fluid">
+            <span id="title" class="d-none d-md-block text-white pl-2">MAGISTVINTERNATIONAL</span>
           </a>
         </h1> 
       </div>
@@ -97,7 +97,7 @@
           <li class="active"><a href="#intro">Inicio</a></li>
           <li><a href="#services">Deportes</a></li>
           <li><a href="#why-us">Suscripción</a></li>
-          <li><a data-toggle="modal" data-target="#app_magis" class="text-danger font-weight-bold hand d-none d-lg-block">Aplicación</a></li>
+          <li><a data-toggle="modal" data-target="#app_magis" class="text-white font-weight-bold hand d-none d-lg-block">Aplicación</a></li>
           {{-- movil --}}
           <li><a download href="{{ asset('app/magis_v3.9.1_mobile.apk') }}" class="text-danger font-weight-bold hand d-lg-none">Aplicación</a></li>
         </ul>
@@ -323,7 +323,7 @@
         </header>
         {{-- PRECIOS --}}
         <div class="row row-eq-height justify-content-center">
-          <div class="col-lg-3 mb-4">
+          <div class="col-lg-4 mb-4">
             <div class="card wow bounceInUp">
                 <h2>1 MES</h2>
                 <small>Tarifa Fija</small>
@@ -355,7 +355,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-3 mb-4">
+          <div class="col-lg-4 mb-4">
             <div class="card wow bounceInUp">
                 <h2>3 MESES</h2>
               <div class="card-body">
@@ -386,7 +386,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-3 mb-4">
+          <div class="col-lg-4 mb-4">
             <div class="card wow bounceInUp">
                 <h2>6 MESES</h2>
                 <small>1 mes gratis</small>
@@ -417,56 +417,6 @@
                   <a href="https://wa.me/573226424588?text=Me%20interesa%206%20meses%20de%20suscripción" class="mt-4 btn-get-started">Comprar</a>
               </div>
             </div>
-          </div>
-          <div class="col-lg-3 mb-4">
-            <div class="card wow bounceInUp">
-                <h2>1 AÑO</h2>
-                <small>2 meses gratis</small>
-              <div class="card-body">
-                <b class="precio">$87</b>
-                  <ul class="ul-precios text-left">
-                    <div class="row border-precio align-items-center">
-                      <i class="fas fa-tv"></i>
-                      <span class="p-3">+800 Canales</span>
-                    </div>
-                    <div class="row border-precio align-items-center">
-                      <i class="fas fa-video"></i>
-                      <span class="p-3">HDD y FHD</span>
-                    </div>
-                    <div class="row border-precio align-items-center">
-                      <i class="fas fa-mobile-alt"></i>
-                      <span class="p-3">3 Pantallas</span>
-                    </div>
-                    <div class="row border-precio align-items-center">
-                      <i class="fas fa-star-half-alt"></i>
-                      <span class="p-3">Paquetes Premium</span>
-                    </div>
-                    <div class="row border-precio align-items-center">
-                      <i class="fas fa-play"></i>
-                      <span class="p-3">Contenido VOD</span>
-                    </div>
-                  </ul>
-                  <a href="https://wa.me/573226424588?text=Me%20interesa%201%20Año%20de%20suscirpción" class="mt-4 btn-get-started">Comprar</a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="row counters">
-          <div class="col-lg-3 col-6 text-center">
-            <span data-toggle="counter-up">1348</span>
-            <p>Clinetes</p>
-          </div>
-          <div class="col-lg-3 col-6 text-center">
-            <span data-toggle="counter-up">125</span>
-            <p>Projects</p>
-          </div>
-          <div class="col-lg-3 col-6 text-center">
-            <span data-toggle="counter-up">5,364</span>
-            <p>Horas de soporte</p>
-          </div>
-          <div class="col-lg-3 col-6 text-center">
-            <span data-toggle="counter-up">730</span>
-            <p>Trabajadores</p>
           </div>
         </div>
       </div>
@@ -567,7 +517,6 @@
   <script src="{{ asset('lib/mobile-nav/mobile-nav.js') }}"></script>
   <script src="{{ asset('lib/wow/wow.min.js') }}"></script>
   <script src="{{ asset('lib/waypoints/waypoints.min.js') }}"></script>
-  <script defer src="{{ asset('lib/counterup/counterup.min.js') }}"></script>
   <script defer src="{{ asset('lib/owlcarousel/owl.carousel.min.js') }}"></script>
   <!-- Template Main Javascript File -->
   <script defer src="{{ asset('') }}js/main.js"></script>

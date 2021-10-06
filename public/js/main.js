@@ -17,14 +17,8 @@
     $(window).scroll(function() {
         if ($(this).scrollTop() > 100) {
             $('#header').addClass('header-scrolled');
-            $('#menu').removeClass('main-nav-2');
-            $('#menu').addClass('main-nav-2');
-            $('#title').removeClass('text-white');
         } else {
-            $('#menu').removeClass('main-nav-2');
-            $('#menu').addClass('main-nav');
             $('#header').removeClass('header-scrolled');
-            $('#title').addClass('text-white');
         }
     });
 
