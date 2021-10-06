@@ -158,28 +158,6 @@
     ============================-->
     <section id="about">
       <div class="container">
-        {{-- SECCION DESTACADO --}}
-        <header class="section-header">
-          <h3>DESTACADO DEL MES</h3>
-        </header>
-        {{-- DESTACADO --}}
-        <div class="row about-extra mb-md-5">
-          <div class="col-lg-6 wow fadeInUp">
-            <iframe width="100%" height="315" src="https://www.youtube.com/embed/gmRKv7n2If8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          </div>
-          <div class="col-lg-6 wow fadeInUp pt-5 pt-lg-0">
-            <div class="text-center">
-              <img loading="lazy" src="{{ asset('img/cruella disney.webp') }}"  alt="cruella" height="100px;">
-            </div>
-            <p class="text-justify px-1">
-              Londres, años 70. Decidida a convertirse en una exitosa diseñadora de moda, una joven y creativa estafadora
-              llamada Estella (Emma Stone) se asocia con un par de ladrones para sobrevivir en las calles de la capital británica.
-              Pero cuando su talento para la moda llama la atención de la legendaria diseñadora, la Baronesa von Hellman (Emma Thompson),
-              Estella cambia el rumbo de su vida hasta que una serie de acontecimientos la llevan a asumir su lado malvado y a 
-              convertirse en la estridente y vengativa ‘Cruella’.           
-            </p>
-          </div>
-        </div>
         <div class="row about-extra">
           <div class="col-lg-6 wow fadeInUp order-1 order-lg-2">
             <img loading="lazy" src="{{ asset('img/canales premiun.webp') }}" class="img-fluid" alt="">
