@@ -1336,6 +1336,10 @@ h6 {
     #testimonials .testimonial-item p {
         width: 80%
     }
+    .card-md-3 {
+        width: 30%;
+        flex: none;
+    }
 }
 
 @media (max-width: 991px) {
@@ -1448,15 +1452,5 @@ h6 {
     .my-xs-3 {
         margin-top: 3rem;
         margin-bottom: 3rem;
-    }
-}
-
-
-/* NO CELULAR */
-
-@media only screen and (min-width: 426px) {
-    .card-md-3 {
-        width: 30%;
-        flex: none;
     }
 }
