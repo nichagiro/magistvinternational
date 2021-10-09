@@ -82,6 +82,9 @@
 <body>
 {{-- HEADER --}}
   <header id="header" class="fixed-top">
+    <div class="container">
+      <b class="d-none d-md-block mr-1 text-white" style="font-size: 12px"> <i class="far fa-clock"></i> Lun - Sab: 9:00am - 8:30pm </b>
+    </div>
     <div class="container d-flex align-items-center justify-content-between">
       <div class="logo float-left row d-flex align-items-center">
         <!-- Uncomment below if you prefer to use an image logo -->
