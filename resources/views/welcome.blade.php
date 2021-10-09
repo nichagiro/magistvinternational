@@ -83,7 +83,7 @@
 {{-- HEADER --}}
   <header id="header" class="fixed-top">
     <div class="container">
-      <b class="d-none d-md-block mr-1 text-white" style="font-size: 12px"> <i class="far fa-clock"></i> Lun - Sab: 9:00am - 8:30pm </b>
+      <b class="d-none d-md-block mr-1 text-white" style="font-size: 12px"> <i class="far fa-clock"></i>  Lun - Sab: 9:00am - 8:30pm </b>
     </div>
     <div class="container d-flex align-items-center justify-content-between">
       <div class="logo float-left row d-flex align-items-center">
@@ -317,7 +317,7 @@
         {{-- PRECIOS --}}
         <div class="row row-eq-height justify-content-center">
           <div class="col-lg-4 mb-4">
-            <div class="card wow bounceInUp dg-blue">
+            <div class="card wow animated bounceInLeft delay-2s dg-blue">
                 <h2>1 MES</h2>
                 <small>Tarifa Fija</small>
               <div class="card-body">
@@ -380,7 +380,7 @@
             </div>
           </div>
           <div class="col-lg-4 mb-4">
-            <div class="card wow bounceInUp dg-green">
+            <div class="card wow animate bounceInRight delay-2s dg-green">
                 <h2>6 MESES</h2>
                 <small>1 mes gratis</small>
               <div class="card-body">
