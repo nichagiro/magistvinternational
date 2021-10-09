@@ -12,3 +12,9 @@ Route::get('/', function () {
 // Auth::routes();
 
 // Route::get('/dashboard', dashboard::class)->name('dashboard');;
+
+Route::fallback(function () {
+
+    return response(view('status.404'), 404);   
+
+});

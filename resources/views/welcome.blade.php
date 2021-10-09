@@ -19,7 +19,7 @@
   <meta name="twitter:card" content="summary" />	
   <meta name="twitter:title" content="MAGIS TV INTERNATIONAL | SERIES | PELICULAS | DEPORTES | PREMIUM" >
   <meta name="twitter:description" content="magis tv international, disfruta del mejor contenido en full calidad, peliculas, series, deportes, canales en vivo y premium, netflix, prime, disney plus, entre otros." >
-  <meta name="twitter:image" content="https://magistvinternational.com/img/vengadores.webp" >
+  <meta name="twitter:image" content="https://magistvinternational.com/img/game.webp" >
   <meta name="twitter:site" content="@Nicolas63783814" >
   <meta name="twitter:creator" content="@Nicolas63783814" >
   {{-- Open Graph  --}}
@@ -27,7 +27,7 @@
   <meta property="og:type" content="article"/>
   <meta property="og:url" content="https://magistvinternational.com"/>
   <meta property="og:site_name" content="MAGIS TV INTERNATIONAL"/>
-  <meta property="og:image" content="https://magistvinternational.com/img/vengadores.webp"/>
+  <meta property="og:image" content="https://magistvinternational.com/img/game.webp"/>
   <meta property="og:image:alt" content="MAGIS TV ENTRETENIMIENTO"/>	
   <meta property="og:description" content="magis tv international, disfruta del mejor contenido en full calidad, peliculas, series, deportes, canales en vivo y premium, netflix, prime, disney plus, entre otros." />
   <script type="application/ld+json">
@@ -123,7 +123,7 @@
           {{-- modal --}}
           <button data-toggle="modal" data-target="#app_magis" class="btn-get-started d-none d-lg-block mt-4">Descargar</button>
           {{-- movil --}}
-          <a class="d-lg-none btn-get-started mt-4" download href="{{ asset('app/magis_v3.9.1_mobile.apk mt-4') }}">Descargar</a>
+          <a class="d-lg-none btn-get-started mt-4" download href="{{ asset('app/magis_v3.9.1_mobile.apk') }}">Descargar</a>
           {{-- component --}}
           <x-modal_xl ok="false" length="xl" title="DESCARGA E INSTALA LA APP" rounded="true" id="app_magis">
             <div class="row p-3 justify-content-around">
@@ -151,8 +151,7 @@
                   <p class="h4 font-weight-bold pl-2">Fire TV</p>
                 </div>
                 <div class="d-flex justify-content-center mt-2">
-                  <a download href="{{ asset('app/magis_v3.9.1_tv.apk') }}" id="btn-download">Descargar</a>
-                </div>
+                  <a download href="{{ asset('app/magis_v3.9.1_mobile.apk') }}" id="btn-download">Descargar</a>
               </div>
             </div>
           </x-modal>
@@ -174,7 +173,7 @@
         </div>
         <div class="row about-extra">
           <div class="col-lg-6 wow fadeInUp order-1 order-lg-2">
-            <img loading="lazy" src="{{ asset('img/canales premiun.webp') }}" class="img-fluid" alt="premim">
+            <img loading="lazy" src="{{ asset('img/tv magistv edition.webp') }}" class="img-fluid" alt="premim">
           </div>
           <div class="d-none d-sm-block col-lg-6 wow fadeInUp order-2 order-lg-1">
             <h4 class="pb-3">EXCLUSIVOS</h4>
@@ -327,7 +326,7 @@
                     </div>
                     <div class="row border-precio align-items-center">
                       <i class="fas fa-video"></i>
-                      <span class="p-3">HDD y FHD</span>
+                      <span class="p-3">HD y FHD</span>
                     </div>
                     <div class="row border-precio align-items-center">
                       <i class="fas fa-mobile-alt"></i>
@@ -358,7 +357,7 @@
                     </div>
                     <div class="row border-precio align-items-center">
                       <i class="fas fa-video"></i>
-                      <span class="p-3">HDD y FHD</span>
+                      <span class="p-3">HD y FHD</span>
                     </div>
                     <div class="row border-precio align-items-center">
                       <i class="fas fa-mobile-alt"></i>
@@ -390,7 +389,7 @@
                     </div>
                     <div class="row border-precio align-items-center">
                       <i class="fas fa-video"></i>
-                      <span class="p-3">HDD y FHD</span>
+                      <span class="p-3">HD y FHD</span>
                     </div>
                     <div class="row border-precio align-items-center">
                       <i class="fas fa-mobile-alt"></i>
