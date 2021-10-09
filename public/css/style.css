@@ -1,70 +1,58 @@
-/*
-  Theme Name: NewBiz
-  Theme URL: https://bootstrapmade.com/newbiz-bootstrap-business-template/
-  Author: BootstrapMade.com
-  License: https://bootstrapmade.com/license/
-*/
-
-
-/*--------------------------------------------------------------
-# General
---------------------------------------------------------------*/
-
 :root {
     --color-theme: #c24112;
     --color-theme-dark: #78270a;
     --degrado-theme: linear-gradient(0deg, rgba(185, 54, 6, 1) 0%, rgba(120, 39, 10, 1) 100%);
     --degrado-blue: linear-gradient(0deg, rgb(9, 6, 185) 0%, rgb(9, 8, 94) 100%);
     --degrado-red: linear-gradient(0deg, rgb(185, 6, 6) 0%, rgb(94, 8, 8) 100%);
-    --degrado-green: linear-gradient(0deg, rgb(6, 185, 15) 0%, rgb(8, 94, 8) 100%);
+    --degrado-green: linear-gradient(0deg, rgb(6, 185, 15) 0%, rgb(8, 94, 8) 100%)
 }
 
 .dg-theme {
-    background: var(--degrado-theme);
+    background: var(--degrado-theme)
 }
 
 .bg-theme {
-    background: var(--color-theme);
+    background: var(--color-theme)
 }
 
 .bg-theme-dark {
-    background: var(--color-theme-dark);
+    background: var(--color-theme-dark)
 }
 
 .dg-blue {
-    background: var(--degrado-blue);
+    background: var(--degrado-blue)
 }
 
 .dg-red {
-    background: var(--degrado-red);
+    background: var(--degrado-red)
 }
 
 .dg-green {
-    background: var(--degrado-green);
+    background: var(--degrado-green)
 }
 
 body {
     background: #fff;
     color: #444;
-    font-family: "Open Sans", sans-serif;
+    font-family: "Open Sans", sans-serif
 }
 
 a {
     color: #fe0000;
-    transition: 0.5s;
+    transition: .5s
 }
 
-a:hover,
 a:active,
-a:focus {
+a:focus,
+a:hover {
     color: --var(color-theme);
-    outline: none;
-    text-decoration: none;
+    outline: 0;
+    text-decoration: none
 }
 
 p {
     padding: 0;
-    margin: 0 0 30px 0;
+    margin: 0 0 30px 0
 }
 
 h1,
@@ -73,14 +61,11 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: "Montserrat", sans-serif;
+    font-family: Montserrat, sans-serif;
     font-weight: 400;
     margin: 0 0 20px 0;
-    padding: 0;
+    padding: 0
 }
-
-
-/* Back to top button */
 
 .back-to-top {
     position: fixed;
@@ -94,21 +79,18 @@ h6 {
     border-radius: 50%;
     right: 15px;
     bottom: 15px;
-    transition: background 0.5s;
+    transition: background .5s;
     z-index: 11;
-    padding: 1.8rem;
+    padding: 1.8rem
 }
 
 .back-to-top i {
-    color: #fff;
+    color: #fff
 }
 
 .back-to-top:hover {
-    color: #fff;
+    color: #fff
 }
-
-
-/* Prelaoder */
 
 #preloader {
     position: fixed;
@@ -118,7 +100,7 @@ h6 {
     bottom: 0;
     z-index: 9999;
     overflow: hidden;
-    background: #fff;
+    background: #fff
 }
 
 #preloader:before {
@@ -132,49 +114,44 @@ h6 {
     width: 60px;
     height: 60px;
     -webkit-animation: animate-preloader 1s linear infinite;
-    animation: animate-preloader 1s linear infinite;
+    animation: animate-preloader 1s linear infinite
 }
 
 @-webkit-keyframes animate-preloader {
     0% {
-        -webkit-transform: rotate(0deg);
-        transform: rotate(0deg);
+        -webkit-transform: rotate(0);
+        transform: rotate(0)
     }
     100% {
         -webkit-transform: rotate(360deg);
-        transform: rotate(360deg);
+        transform: rotate(360deg)
     }
 }
 
 @keyframes animate-preloader {
     0% {
-        -webkit-transform: rotate(0deg);
-        transform: rotate(0deg);
+        -webkit-transform: rotate(0);
+        transform: rotate(0)
     }
     100% {
         -webkit-transform: rotate(360deg);
-        transform: rotate(360deg);
+        transform: rotate(360deg)
     }
 }
 
-
-/*--------------------------------------------------------------
-# Header
---------------------------------------------------------------*/
-
 #header {
     height: 120px;
-    transition: all 0.5s;
+    transition: all .5s;
     z-index: 997;
-    transition: all 0.5s;
-    padding: 20px 0;
+    transition: all .5s;
+    padding: 20px 0
 }
 
-#header.header-scrolled,
-#header.header-pages {
+#header.header-pages,
+#header.header-scrolled {
     height: 90px;
     background: #eb612e;
-    box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.3);
+    box-shadow: 0 0 30px rgba(127, 137, 161, .3)
 }
 
 #header .logo h1 {
@@ -184,46 +161,41 @@ h6 {
     line-height: 1;
     font-weight: 400;
     letter-spacing: 3px;
-    text-transform: uppercase;
+    text-transform: uppercase
 }
 
 #header .logo h1 a,
 #header .logo h1 a:hover {
     color: #00366f;
-    text-decoration: none;
+    text-decoration: none
 }
 
 #header .logo img {
-    max-height: 50px;
+    max-height: 50px
 }
 
 .main-pages {
-    margin-top: 60px;
+    margin-top: 60px
 }
-
-
-/*--------------------------------------------------------------
-# Intro Section
---------------------------------------------------------------*/
 
 #intro {
     width: 100%;
     position: relative;
-    padding: 200px 0 120px 0;
-    background-image: linear-gradient( rgba(185, 54, 6, 0.315), rgba(82, 35, 4, 0.253)), url('../img/game.webp');
+    padding: 150px 0 120px 0;
+    background-image: linear-gradient(rgba(185, 54, 6, .315), rgba(82, 35, 4, .253)), url(../img/game.webp);
     background-size: cover;
     background-position: center;
-    height: 100vh;
+    height: 100vh
 }
 
 #intro .intro-img {
     width: 50%;
-    float: right;
+    float: right
 }
 
 #intro .intro-info {
     width: 50%;
-    float: left;
+    float: left
 }
 
 #intro .intro-info h2 {
@@ -231,107 +203,99 @@ h6 {
     margin-bottom: 20px;
     font-size: 48px;
     font-weight: 700;
-    text-shadow: 0 0 8px rgba(0, 0, 0, 10.9);
+    text-shadow: 0 0 8px #000
 }
 
 #intro .intro-info h2 span {
     color: var(--color-theme);
-    text-decoration: underline;
+    text-decoration: underline
 }
 
-.btn-get-started,
-#intro .intro-info .btn-services {
-    font-family: "Montserrat", sans-serif;
+#intro .intro-info .btn-services,
+.btn-get-started {
+    font-family: Montserrat, sans-serif;
     font-size: 14px;
     font-weight: 600;
     letter-spacing: 1px;
     display: inline-block;
     padding: 10px 32px;
     border-radius: 50px;
-    transition: 0.5s;
+    transition: .5s;
     margin: 0 20px 20px 0;
-    color: #fff;
+    color: #fff
 }
 
 .btn-get-started {
     background: var(--degrado-theme);
     border: 2px solid var(--color-theme-dark);
-    color: #fff;
+    color: #fff
 }
 
 .btn-get-started:hover {
-    background: none;
+    background: 0 0;
     border-color: #fff;
-    color: #fff;
+    color: #fff
 }
 
 #intro .intro-info .btn-services {
-    border: 2px solid #fff;
+    border: 2px solid #fff
 }
 
 #intro .intro-info .btn-services:hover {
     background: #007bff;
     border-color: #007bff;
-    color: #fff;
+    color: #fff
 }
 
 #btn-download {
     border: 2px solid #fff;
-    font-family: "Montserrat", sans-serif;
+    font-family: Montserrat, sans-serif;
     font-size: 14px;
     font-weight: 600;
     letter-spacing: 1px;
     display: inline-block;
     padding: 10px 32px;
     border-radius: 50px;
-    transition: 0.5s;
+    transition: .5s;
     margin: 0 20px 20px 0;
-    color: #fff;
+    color: #fff
 }
 
 #btn-download:hover {
-    background: rgb(17, 17, 17);
-    border-color: rgb(43, 42, 42);
-    color: #fff;
+    background: #111;
+    border-color: #2b2a2a;
+    color: #fff
 }
-
-
-/*--------------------------------------------------------------
-# Navigation Menu
---------------------------------------------------------------*/
-
-
-/* Desktop Navigation */
 
 .main-nav,
 .main-nav * {
     margin: 0;
     padding: 0;
-    list-style: none;
+    list-style: none
 }
 
 .main-nav>ul>li {
     position: relative;
     white-space: nowrap;
-    float: left;
+    float: left
 }
 
 .main-nav a {
     display: block;
     position: relative;
     padding: 15px 15px;
-    transition: 0.3s;
+    transition: .3s;
     font-size: 14px;
-    font-family: "Montserrat", sans-serif;
+    font-family: Montserrat, sans-serif;
     font-weight: 500;
-    color: white;
-    font-weight: bold;
+    color: #fff;
+    font-weight: 700
 }
 
-.main-nav a:hover,
 .main-nav .active>a,
+.main-nav a:hover,
 .main-nav li:hover>a {
-    text-decoration: none;
+    text-decoration: none
 }
 
 .main-nav .drop-down ul {
@@ -344,62 +308,59 @@ h6 {
     visibility: hidden;
     padding: 10px 0;
     background: #fff;
-    box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
-    transition: ease all 0.3s;
+    box-shadow: 0 0 30px rgba(127, 137, 161, .25);
+    transition: ease all .3s
 }
 
 .main-nav .drop-down:hover>ul {
     opacity: 1;
     top: 100%;
-    visibility: visible;
+    visibility: visible
 }
 
 .main-nav .drop-down li {
     min-width: 180px;
-    position: relative;
+    position: relative
 }
 
 .main-nav .drop-down ul a {
     padding: 10px 20px;
     font-size: 13px;
-    color: #004289;
+    color: #004289
 }
 
-.main-nav .drop-down ul a:hover,
 .main-nav .drop-down ul .active>a,
+.main-nav .drop-down ul a:hover,
 .main-nav .drop-down ul li:hover>a {
-    color: #007bff;
+    color: #007bff
 }
 
 .main-nav .drop-down>a:after {
     content: "\f107";
     font-family: FontAwesome;
-    padding-left: 10px;
+    padding-left: 10px
 }
 
 .main-nav .drop-down .drop-down ul {
     top: 0;
-    left: calc(100% - 30px);
+    left: calc(100% - 30px)
 }
 
 .main-nav .drop-down .drop-down:hover>ul {
     opacity: 1;
     top: 0;
-    left: 100%;
+    left: 100%
 }
 
 .main-nav .drop-down .drop-down>a {
-    padding-right: 35px;
+    padding-right: 35px
 }
 
 .main-nav .drop-down .drop-down>a:after {
     content: "\f105";
     position: absolute;
-    right: 15px;
+    right: 15px
 }
-
-
-/* Mobile Navigation */
 
 .mobile-nav {
     position: fixed;
@@ -410,14 +371,14 @@ h6 {
     left: -260px;
     width: 260px;
     padding-top: 18px;
-    background: rgba(19, 39, 57, 0.8);
-    transition: 0.4s;
+    background: rgba(19, 39, 57, .8);
+    transition: .4s
 }
 
 .mobile-nav * {
     margin: 0;
     padding: 0;
-    list-style: none;
+    list-style: none
 }
 
 .mobile-nav a {
@@ -425,14 +386,14 @@ h6 {
     position: relative;
     color: #fff;
     padding: 10px 20px;
-    font-weight: 500;
+    font-weight: 500
 }
 
-.mobile-nav a:hover,
 .mobile-nav .active>a,
+.mobile-nav a:hover,
 .mobile-nav li:hover>a {
     color: #74b5fc;
-    text-decoration: none;
+    text-decoration: none
 }
 
 .mobile-nav .drop-down>a:after {
@@ -440,24 +401,24 @@ h6 {
     font-family: FontAwesome;
     padding-left: 10px;
     position: absolute;
-    right: 15px;
+    right: 15px
 }
 
 .mobile-nav .active.drop-down>a:after {
-    content: "\f077";
+    content: "\f077"
 }
 
 .mobile-nav .drop-down>a {
-    padding-right: 35px;
+    padding-right: 35px
 }
 
 .mobile-nav .drop-down ul {
     display: none;
-    overflow: hidden;
+    overflow: hidden
 }
 
 .mobile-nav .drop-down li {
-    padding-left: 20px;
+    padding-left: 20px
 }
 
 .mobile-nav-toggle {
@@ -466,18 +427,18 @@ h6 {
     top: 18px;
     z-index: 9998;
     border: 0;
-    background: none;
+    background: 0 0;
     font-size: 24px;
-    transition: all 0.4s;
-    outline: none !important;
+    transition: all .4s;
+    outline: 0!important;
     line-height: 1;
     cursor: pointer;
-    text-align: right;
+    text-align: right
 }
 
 .mobile-nav-toggle i {
     margin: 18px 18px 0 0;
-    color: #004289;
+    color: #004289
 }
 
 .mobile-nav-overly {
@@ -487,46 +448,37 @@ h6 {
     top: 0;
     left: 0;
     position: fixed;
-    background: rgba(19, 39, 57, 0.8);
+    background: rgba(19, 39, 57, .8);
     overflow: hidden;
-    display: none;
+    display: none
 }
 
 .mobile-nav-active {
-    overflow: hidden;
+    overflow: hidden
 }
 
 .mobile-nav-active .mobile-nav {
-    left: 0;
+    left: 0
 }
 
 .mobile-nav-active .mobile-nav-toggle i {
-    color: #fff;
+    color: #fff
 }
-
-
-/*--------------------------------------------------------------
-# Sections
---------------------------------------------------------------*/
-
-
-/* Sections Header
---------------------------------*/
 
 .section-header h3 {
     font-size: 36px;
     color: var(--color-theme);
     text-align: center;
     font-weight: bolder;
-    position: relative;
+    position: relative
 }
 
 .section-header-white h3 {
     font-size: 36px;
-    color: white;
+    color: #fff;
     text-align: center;
     font-weight: 900;
-    position: relative;
+    position: relative
 }
 
 .section-header p {
@@ -535,7 +487,7 @@ h6 {
     font-size: 15px;
     padding-bottom: 60px;
     color: #556877;
-    width: 50%;
+    width: 50%
 }
 
 .section-header-white p {
@@ -543,57 +495,49 @@ h6 {
     margin: auto;
     font-size: 1.5rem;
     padding-bottom: 60px;
-    color: white;
-    width: 50%;
+    color: #fff;
+    width: 50%
 }
-
-
-/* Section with background
---------------------------------*/
 
 .section-deporte {
     width: 100%;
     position: relative;
     padding: 200px 0 120px 0;
-    background-image: linear-gradient( rgba(185, 54, 6, 0.795), rgba(82, 35, 4, 0.637)), url('../img/bg futbol.webp');
-    background-size: cover;
+    background-image: linear-gradient(rgba(185, 54, 6, .795), rgba(82, 35, 4, .637)), url('../img/bg futbol.webp');
+    background-size: cover
 }
-
-
-/* About Us Section
---------------------------------*/
 
 #about {
     background: #fff;
-    padding: 60px 0;
+    padding: 60px 0
 }
 
 #about .about-container .background {
-    margin: 20px 0;
+    margin: 20px 0
 }
 
 #about .about-container .content {
-    background: #fff;
+    background: #fff
 }
 
 #about .about-container .title {
     color: #333;
     font-weight: 700;
-    font-size: 32px;
+    font-size: 32px
 }
 
 #about .about-container p {
-    line-height: 26px;
+    line-height: 26px
 }
 
 #about .about-container p:last-child {
-    margin-bottom: 0;
+    margin-bottom: 0
 }
 
 #about .about-container .icon-box {
     background: #fff;
     background-size: cover;
-    padding: 0 0 30px 0;
+    padding: 0 0 30px 0
 }
 
 #about .about-container .icon-box .icon {
@@ -621,55 +565,51 @@ h6 {
     text-align: center;
     border-radius: 50%;
     border: 2px solid #007bff;
-    transition: all 0.3s ease-in-out;
+    transition: all .3s ease-in-out
 }
 
 #about .about-container .icon-box .icon i {
     color: #007bff;
-    font-size: 24px;
+    font-size: 24px
 }
 
 #about .about-container .icon-box:hover .icon {
-    background: #007bff;
+    background: #007bff
 }
 
 #about .about-container .icon-box:hover .icon i {
-    color: #fff;
+    color: #fff
 }
 
 #about .about-container .icon-box .title {
     margin-left: 80px;
     font-weight: 600;
     margin-bottom: 5px;
-    font-size: 18px;
+    font-size: 18px
 }
 
 #about .about-container .icon-box .title a {
-    color: #eb612e;
+    color: #eb612e
 }
 
 #about .about-container .icon-box .description {
     margin-left: 80px;
     line-height: 24px;
-    font-size: 14px;
+    font-size: 14px
 }
 
 #about .about-extra {
-    padding-top: 60px;
+    padding-top: 60px
 }
 
 #about .about-extra h4 {
     font-weight: 600;
-    font-size: 24px;
+    font-size: 24px
 }
-
-
-/* Services Section
---------------------------------*/
 
 #services {
     padding: 60px 0 40px 0;
-    box-shadow: inset 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
+    box-shadow: inset 0 0 12px 0 rgba(0, 0, 0, .1)
 }
 
 #services .box {
@@ -679,59 +619,59 @@ h6 {
     border-radius: 10px;
     margin: 0 10px 40px 10px;
     background: #fff;
-    box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
-    transition: all 0.3s ease-in-out;
+    box-shadow: 0 10px 29px 0 rgba(68, 88, 144, .1);
+    transition: all .3s ease-in-out
 }
 
 #services .box:hover {
     -webkit-transform: translateY(-5px);
-    transform: translateY(-5px);
+    transform: translateY(-5px)
 }
 
 #services .icon {
     position: absolute;
     left: -10px;
-    top: calc(50% - 32px);
+    top: calc(50% - 32px)
 }
 
 #services .icon i {
     font-size: 64px;
     line-height: 1;
-    transition: 0.5s;
+    transition: .5s
 }
 
 #services .title {
     margin-left: 40px;
     font-weight: 700;
     margin-bottom: 15px;
-    font-size: 18px;
+    font-size: 18px
 }
 
 #services .title a {
-    color: #eb612e;
+    color: #eb612e
 }
 
 #services .box:hover .title a {
-    color: #eb612e;
+    color: #eb612e
 }
 
 #services .description {
     font-size: 1.2rem;
     line-height: 24px;
     margin-bottom: 0;
-    color: white;
+    color: #fff;
     margin-bottom: 2rem;
-    font-weight: 500;
+    font-weight: 500
 }
 
 #why-us {
     padding: 60px 0;
-    background: var(--color-theme-dark);
+    background: var(--color-theme-dark)
 }
 
 #why-us .section-header h3,
 #why-us .section-header p {
-    color: #fff;
+    color: #fff
 }
 
 #why-us .card {
@@ -741,77 +681,73 @@ h6 {
     padding: 15px 0;
     text-align: center;
     color: #fff;
-    transition: 0.3s ease-in-out;
-    height: 100%;
+    transition: .3s ease-in-out;
+    height: 100%
 }
 
 #why-us .card:hover {
-    background: black;
-    border-color: blanchedalmond;
+    background: #000;
+    border-color: #ffebcd
 }
 
 #why-us .card i {
     font-size: 48px;
     padding-top: 15px;
-    color: #bfddfe;
+    color: #bfddfe
 }
 
 #why-us .card h5 {
     font-size: 22px;
-    font-weight: 600;
+    font-weight: 600
 }
 
 #why-us .card p {
     font-size: 15px;
-    color: #d8eafe;
+    color: #d8eafe
 }
 
 #why-us .card .readmore {
     color: #fff;
     font-weight: 600;
     display: inline-block;
-    transition: 0.3s ease-in-out;
-    border-bottom: #00458f solid 2px;
+    transition: .3s ease-in-out;
+    border-bottom: #00458f solid 2px
 }
 
 #why-us .card .readmore:hover {
-    border-bottom: #fff solid 2px;
+    border-bottom: #fff solid 2px
 }
 
 #why-us .counters {
-    padding-top: 40px;
+    padding-top: 40px
 }
 
 #why-us .counters span {
-    font-family: "Montserrat", sans-serif;
-    font-weight: bold;
+    font-family: Montserrat, sans-serif;
+    font-weight: 700;
     font-size: 48px;
     display: block;
-    color: #fff;
+    color: #fff
 }
 
 #why-us .counters p {
     padding: 0;
     margin: 0 0 20px 0;
-    font-family: "Montserrat", sans-serif;
+    font-family: Montserrat, sans-serif;
     font-size: 14px;
-    color: #cce5ff;
+    color: #cce5ff
 }
-
-
-/* Portfolio Section
---------------------------------*/
 
 #portfolio {
     padding: 60px 0;
-    box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 12px 0 rgba(0, 0, 0, .1)
 }
 
 #portfolio #portfolio-flters {
     padding: 0;
     margin: 5px 0 35px 0;
     list-style: none;
-    text-align: center;
+    text-align: center
 }
 
 #portfolio #portfolio-flters li {
@@ -826,35 +762,35 @@ h6 {
     text-transform: uppercase;
     background: #ecf5ff;
     margin-bottom: 5px;
-    transition: all 0.3s ease-in-out;
+    transition: all .3s ease-in-out
 }
 
-#portfolio #portfolio-flters li:hover,
-#portfolio #portfolio-flters li.filter-active {
+#portfolio #portfolio-flters li.filter-active,
+#portfolio #portfolio-flters li:hover {
     background: #007bff;
-    color: #fff;
+    color: #fff
 }
 
 #portfolio #portfolio-flters li:last-child {
-    margin-right: 0;
+    margin-right: 0
 }
 
 #portfolio .portfolio-item {
     position: relative;
     overflow: hidden;
-    margin-bottom: 30px;
+    margin-bottom: 30px
 }
 
 #portfolio .portfolio-item .portfolio-wrap {
     overflow: hidden;
     position: relative;
     border-radius: 6px;
-    margin: 0;
+    margin: 0
 }
 
 #portfolio .portfolio-item .portfolio-wrap:hover img {
-    opacity: 0.4;
-    transition: 0.3s;
+    opacity: .4;
+    transition: .3s
 }
 
 #portfolio .portfolio-item .portfolio-wrap .portfolio-info {
@@ -882,7 +818,7 @@ h6 {
     flex-direction: column;
     text-align: center;
     opacity: 0;
-    transition: 0.2s linear;
+    transition: .2s linear
 }
 
 #portfolio .portfolio-item .portfolio-wrap .portfolio-info h4 {
@@ -890,15 +826,15 @@ h6 {
     line-height: 1px;
     font-weight: 700;
     margin-bottom: 14px;
-    padding-bottom: 0;
+    padding-bottom: 0
 }
 
 #portfolio .portfolio-item .portfolio-wrap .portfolio-info h4 a {
-    color: #fff;
+    color: #fff
 }
 
 #portfolio .portfolio-item .portfolio-wrap .portfolio-info h4 a:hover {
-    color: #007bff;
+    color: #007bff
 }
 
 #portfolio .portfolio-item .portfolio-wrap .portfolio-info p {
@@ -907,11 +843,11 @@ h6 {
     color: #e2effe;
     font-weight: 500;
     font-size: 14px;
-    text-transform: uppercase;
+    text-transform: uppercase
 }
 
-#portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-preview,
-#portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-details {
+#portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-details,
+#portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-preview {
     display: inline-block;
     line-height: 1;
     text-align: center;
@@ -919,78 +855,74 @@ h6 {
     height: 36px;
     background: #007bff;
     border-radius: 50%;
-    margin: 10px 4px 0 4px;
+    margin: 10px 4px 0 4px
 }
 
-#portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-preview i,
-#portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-details i {
+#portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-details i,
+#portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-preview i {
     padding-top: 6px;
     font-size: 22px;
-    color: #fff;
+    color: #fff
 }
 
-#portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-preview:hover,
-#portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-details:hover {
-    background: #3395ff;
+#portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-details:hover,
+#portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-preview:hover {
+    background: #3395ff
 }
 
-#portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-preview:hover i,
-#portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-details:hover i {
-    color: #fff;
+#portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-details:hover i,
+#portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-preview:hover i {
+    color: #fff
 }
 
 #portfolio .portfolio-item .portfolio-wrap:hover {
-    background: #003166;
+    background: #003166
 }
 
 #portfolio .portfolio-item .portfolio-wrap:hover .portfolio-info {
-    opacity: 1;
+    opacity: 1
 }
-
-
-/* Testimonials Section
---------------------------------*/
 
 #testimonials {
     padding: 60px 0;
-    box-shadow: inset 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
+    /* box-shadow: inset 0 0 12px 0 rgba(0, 0, 0, .1) */
 }
 
 #testimonials .section-header {
-    margin-bottom: 40px;
+    margin-bottom: 40px
 }
 
 #testimonials .testimonial-item .testimonial-img {
     width: 120px;
     border-radius: 50%;
     border: 4px solid #fff;
-    float: left;
+    float: left
 }
 
 #testimonials .testimonial-item h3 {
     font-size: 20px;
-    font-weight: bold;
+    font-weight: 700;
     margin: 10px 0 5px 0;
     color: #111;
-    margin-left: 140px;
+    margin-left: 140px
 }
 
 #testimonials .testimonial-item h4 {
     font-size: 14px;
     color: #999;
     margin: 0 0 15px 0;
-    margin-left: 140px;
+    margin-left: 140px
 }
 
 #testimonials .testimonial-item p {
     font-style: italic;
-    margin: 0 0 15px 140px;
+    margin: 0 0 15px 140px
 }
 
-#testimonials .owl-nav,
-#testimonials .owl-dots {
+#testimonials .owl-dots,
+#testimonials .owl-nav {
     margin-top: 5px;
-    text-align: center;
+    text-align: center
 }
 
 #testimonials .owl-dot {
@@ -999,21 +931,17 @@ h6 {
     width: 12px;
     height: 12px;
     border-radius: 50%;
-    background-color: #ddd;
+    background-color: #ddd
 }
 
 #testimonials .owl-dot.active {
-    background-color: #007bff;
+    background-color: #007bff
 }
-
-
-/* Team Section
---------------------------------*/
 
 #team {
     background: #fff;
     padding: 60px 0;
-    box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 12px 0 rgba(0, 0, 0, .1)
 }
 
 #team .member {
@@ -1021,7 +949,7 @@ h6 {
     margin-bottom: 20px;
     position: relative;
     border-radius: 50%;
-    overflow: hidden;
+    overflow: hidden
 }
 
 #team .member .member-info {
@@ -1043,70 +971,66 @@ h6 {
     top: 0;
     left: 0;
     right: 0;
-    transition: 0.2s;
+    transition: .2s
 }
 
 #team .member .member-info-content {
     margin-top: 50px;
-    transition: margin 0.2s;
+    transition: margin .2s
 }
 
 #team .member:hover .member-info {
-    background: rgba(0, 62, 128, 0.7);
+    background: rgba(0, 62, 128, .7);
     opacity: 1;
-    transition: 0.4s;
+    transition: .4s
 }
 
 #team .member:hover .member-info-content {
     margin-top: 0;
-    transition: margin 0.4s;
+    transition: margin .4s
 }
 
 #team .member h4 {
     font-weight: 700;
     margin-bottom: 2px;
     font-size: 18px;
-    color: #fff;
+    color: #fff
 }
 
 #team .member span {
     font-style: italic;
     display: block;
     font-size: 13px;
-    color: #fff;
+    color: #fff
 }
 
 #team .member .social {
-    margin-top: 15px;
+    margin-top: 15px
 }
 
 #team .member .social a {
     transition: none;
-    color: #fff;
+    color: #fff
 }
 
 #team .member .social a:hover {
-    color: #007bff;
+    color: #007bff
 }
 
 #team .member .social i {
     font-size: 18px;
-    margin: 0 2px;
+    margin: 0 2px
 }
-
-
-/* Clients Section
---------------------------------*/
 
 #clients {
     padding: 60px 0;
-    box-shadow: inset 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
+    box-shadow: inset 0 0 12px 0 rgba(0, 0, 0, .1)
 }
 
 #clients .clients-wrap {
     border-top: 1px solid #d6eaff;
     border-left: 1px solid #d6eaff;
-    margin-bottom: 30px;
+    margin-bottom: 30px
 }
 
 #clients .client-logo {
@@ -1127,30 +1051,26 @@ h6 {
     border-bottom: 1px solid #d6eaff;
     overflow: hidden;
     background: #fff;
-    height: 160px;
+    height: 160px
 }
 
 .client-logo:hover img {
     -webkit-transform: scale(1.2);
-    transform: scale(1.2);
+    transform: scale(1.2)
 }
 
 .client-logo img {
-    transition: all 0.4s ease-in-out;
+    transition: all .4s ease-in-out
 }
 
-
-/* Contact Section
---------------------------------*/
-
 #contact {
-    box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 12px 0 rgba(0, 0, 0, .1);
     padding: 60px 0;
-    overflow: hidden;
+    overflow: hidden
 }
 
 #contact .section-header {
-    padding-bottom: 30px;
+    padding-bottom: 30px
 }
 
 #contact .contact-about h3 {
@@ -1158,22 +1078,22 @@ h6 {
     margin: 0 0 10px 0;
     padding: 0;
     line-height: 1;
-    font-family: "Montserrat", sans-serif;
+    font-family: Montserrat, sans-serif;
     font-weight: bolder;
     letter-spacing: 3px;
     text-transform: uppercase;
-    color: var(--color-theme);
+    color: var(--color-theme)
 }
 
 #contact .contact-about p {
     font-size: 14px;
     line-height: 24px;
-    font-family: "Montserrat", sans-serif;
-    color: #888;
+    font-family: Montserrat, sans-serif;
+    color: #888
 }
 
 #contact .social-links {
-    padding-bottom: 20px;
+    padding-bottom: 20px
 }
 
 #contact .social-links a {
@@ -1188,30 +1108,30 @@ h6 {
     text-align: center;
     width: 36px;
     height: 36px;
-    transition: 0.3s;
-    border: 1px solid #007bff;
+    transition: .3s;
+    border: 1px solid #007bff
 }
 
 #contact .social-links a:hover {
     background: #007bff;
-    color: #fff;
+    color: #fff
 }
 
 #contact .info {
-    color: #283d50;
+    color: #283d50
 }
 
 #contact .info i {
     font-size: 32px;
     color: #007bff;
     float: left;
-    line-height: 1;
+    line-height: 1
 }
 
 #contact .info p {
     padding: 0 0 10px 36px;
     line-height: 28px;
-    font-size: 14px;
+    font-size: 14px
 }
 
 #contact .form #sendmessage {
@@ -1221,7 +1141,7 @@ h6 {
     text-align: center;
     padding: 15px;
     font-weight: 600;
-    margin-bottom: 15px;
+    margin-bottom: 15px
 }
 
 #contact .form #errormessage {
@@ -1231,13 +1151,13 @@ h6 {
     text-align: center;
     padding: 15px;
     font-weight: 600;
-    margin-bottom: 15px;
+    margin-bottom: 15px
 }
 
-#contact .form #sendmessage.show,
 #contact .form #errormessage.show,
+#contact .form #sendmessage.show,
 #contact .form .show {
-    display: block;
+    display: block
 }
 
 #contact .form .validation {
@@ -1245,49 +1165,44 @@ h6 {
     display: none;
     margin: 0 0 20px;
     font-weight: 400;
-    font-size: 13px;
+    font-size: 13px
 }
 
 #contact .form input,
 #contact .form textarea {
     border-radius: 0;
     box-shadow: none;
-    font-size: 14px;
+    font-size: 14px
 }
 
-#contact .form button[type="submit"] {
+#contact .form button[type=submit] {
     background: #007bff;
     border: 0;
     border-radius: 20px;
     padding: 8px 30px;
     color: #fff;
-    transition: 0.3s;
+    transition: .3s
 }
 
-#contact .form button[type="submit"]:hover {
+#contact .form button[type=submit]:hover {
     background: #0067d5;
-    cursor: pointer;
+    cursor: pointer
 }
-
-
-/*--------------------------------------------------------------
-# Footer
---------------------------------------------------------------*/
 
 #footer {
     background: var(--color-theme);
     padding: 0 0 30px 0;
     color: #eee;
-    font-size: 14px;
+    font-size: 14px
 }
 
 #footer .footer-top {
     background: #004a99;
-    padding: 60px 0 30px 0;
+    padding: 60px 0 30px 0
 }
 
 #footer .footer-top .footer-info {
-    margin-bottom: 30px;
+    margin-bottom: 30px
 }
 
 #footer .footer-top .footer-info h3 {
@@ -1295,19 +1210,19 @@ h6 {
     margin: 0 0 20px 0;
     padding: 2px 0 2px 0;
     line-height: 1;
-    font-family: "Montserrat", sans-serif;
+    font-family: Montserrat, sans-serif;
     color: #fff;
     font-weight: 400;
     letter-spacing: 3px;
-    text-transform: uppercase;
+    text-transform: uppercase
 }
 
 #footer .footer-top .footer-info p {
     font-size: 13px;
     line-height: 24px;
     margin-bottom: 0;
-    font-family: "Montserrat", sans-serif;
-    color: #ecf5ff;
+    font-family: Montserrat, sans-serif;
+    color: #ecf5ff
 }
 
 #footer .footer-top .social-links a {
@@ -1322,180 +1237,172 @@ h6 {
     text-align: center;
     width: 36px;
     height: 36px;
-    transition: 0.3s;
+    transition: .3s
 }
 
 #footer .footer-top .social-links a:hover {
     background: #0067d5;
-    color: #fff;
+    color: #fff
 }
 
 #footer .footer-top h4 {
     font-size: 14px;
-    font-weight: bold;
+    font-weight: 700;
     color: #fff;
     text-transform: uppercase;
     position: relative;
-    padding-bottom: 10px;
+    padding-bottom: 10px
 }
 
 #footer .footer-top .footer-links {
-    margin-bottom: 30px;
+    margin-bottom: 30px
 }
 
 #footer .footer-top .footer-links ul {
     list-style: none;
     padding: 0;
-    margin: 0;
+    margin: 0
 }
 
 #footer .footer-top .footer-links ul li {
-    padding: 8px 0;
+    padding: 8px 0
 }
 
 #footer .footer-top .footer-links ul li:first-child {
-    padding-top: 0;
+    padding-top: 0
 }
 
 #footer .footer-top .footer-links ul a {
-    color: #ecf5ff;
+    color: #ecf5ff
 }
 
 #footer .footer-top .footer-links ul a:hover {
-    color: #74b5fc;
+    color: #74b5fc
 }
 
 #footer .footer-top .footer-contact {
-    margin-bottom: 30px;
+    margin-bottom: 30px
 }
 
 #footer .footer-top .footer-contact p {
-    line-height: 26px;
+    line-height: 26px
 }
 
 #footer .footer-top .footer-newsletter {
-    margin-bottom: 30px;
+    margin-bottom: 30px
 }
 
-#footer .footer-top .footer-newsletter input[type="email"] {
+#footer .footer-top .footer-newsletter input[type=email] {
     border: 0;
     padding: 6px 8px;
-    width: 65%;
+    width: 65%
 }
 
-#footer .footer-top .footer-newsletter input[type="submit"] {
+#footer .footer-top .footer-newsletter input[type=submit] {
     background: #007bff;
     border: 0;
     width: 35%;
     padding: 6px 0;
     text-align: center;
     color: #fff;
-    transition: 0.3s;
-    cursor: pointer;
+    transition: .3s;
+    cursor: pointer
 }
 
-#footer .footer-top .footer-newsletter input[type="submit"]:hover {
-    background: #0062cc;
+#footer .footer-top .footer-newsletter input[type=submit]:hover {
+    background: #0062cc
 }
 
 #footer .copyright {
     text-align: center;
-    padding-top: 30px;
+    padding-top: 30px
 }
 
 #footer .credits {
     text-align: center;
     font-size: 13px;
-    color: #f1f7ff;
+    color: #f1f7ff
 }
 
 #footer .credits a {
-    color: #bfddfe;
+    color: #bfddfe
 }
 
 #footer .credits a:hover {
-    color: #f1f7ff;
+    color: #f1f7ff
 }
-
-
-/*--------------------------------------------------------------
-# Responsive Media Queries
---------------------------------------------------------------*/
 
 @media (min-width: 992px) {
     #testimonials .testimonial-item p {
-        width: 80%;
+        width: 80%
     }
 }
 
 @media (max-width: 991px) {
     #header {
         height: 60px;
-        padding: 10px 0;
+        padding: 10px 0
     }
     #header .logo h1 {
-        font-size: 28px;
+        font-size: 28px
     }
     #intro {
-        padding: 140px 0 60px 0;
+        padding: 140px 0 60px 0
     }
     #intro .intro-img {
         width: 80%;
         float: none;
-        margin: 0 auto 25px auto;
+        margin: 0 auto 25px auto
     }
     #intro .intro-info {
         width: 80%;
         float: none;
-        margin: auto;
+        margin: auto
     }
     #why-us .card {
-        margin: 0;
+        margin: 0
     }
 }
 
 @media (max-width: 768px) {
     .back-to-top {
-        bottom: 15px;
+        bottom: 15px
     }
 }
 
 @media (max-width: 767px) {
     #intro .intro-info {
-        width: 100%;
+        width: 100%
     }
     #intro .intro-info h2 {
         font-size: 34px;
-        margin-bottom: 30px;
+        margin-bottom: 30px
     }
     .section-header p {
-        width: 100%;
+        width: 100%
     }
     #testimonials .testimonial-item {
-        text-align: center;
+        text-align: center
     }
     #testimonials .testimonial-item .testimonial-img {
         float: none;
-        margin: auto;
+        margin: auto
     }
     #testimonials .testimonial-item h3,
     #testimonials .testimonial-item h4,
     #testimonials .testimonial-item p {
-        margin-left: 0;
+        margin-left: 0
     }
 }
 
 @media (max-width: 574px) {
     #intro {
-        padding: 100px 0 20px 0;
+        padding: 100px 0 20px 0
     }
 }
 
-
-/* NICOLAS */
-
 .hand:hover {
-    cursor: pointer;
+    cursor: pointer
 }
 
 .ul-precios {
@@ -1503,33 +1410,53 @@ h6 {
     display: block;
     padding: .75rem 1.25rem;
     margin-bottom: -1px;
-    background-color: transparent;
+    background-color: transparent
 }
 
 .border-precio {
-    border-bottom: rgba(255, 255, 255, 0.815) 1px solid;
+    border-bottom: rgba(255, 255, 255, .815) 1px solid
 }
 
 .precio {
-    font-size: 3rem;
+    font-size: 3rem
 }
 
 .radius_adaptable {
-    border-radius: 10%;
+    border-radius: 10%
+}
+
+.modal-header .close {
+    padding: 0;
+    margin: 0;
+    padding-right: 1rem;
 }
 
 
-/* Celulares */
+/* CELULAR */
 
-@media only screen and (max-width:425px) {
+@media only screen and (max-width: 425px) {
     .pt-xs-2 {
-        padding-top: 2rem;
+        padding-top: 2rem
     }
     .px-xs-3 {
         padding-left: 2rem;
-        padding-right: 2rem;
+        padding-right: 2rem
     }
     #header.header-scrolled {
-        height: 70px;
+        height: 70px
+    }
+    .my-xs-3 {
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+    }
+}
+
+
+/* NO CELULAR */
+
+@media only screen and (min-width: 426px) {
+    .card-md-3 {
+        width: 30%;
+        flex: none;
     }
 }
