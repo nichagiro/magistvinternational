@@ -254,7 +254,7 @@ h6 {
 }
 
 .btn-get-started {
-    background: var(--color-theme);
+    background: var(--degrado-theme);
     border: 2px solid var(--color-theme-dark);
     color: #fff;
 }

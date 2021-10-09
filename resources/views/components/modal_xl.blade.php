@@ -5,7 +5,7 @@
             <div class="modal-header bg-theme text-white">
                 <h5 class="modal-title col-12 text-center" id="{{$id}}_title">{{$title}}</h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
+                <span class="text-white" aria-hidden="true">&times;</span>
                 </button>
             </div>
             <div class="modal-body dg-theme">
