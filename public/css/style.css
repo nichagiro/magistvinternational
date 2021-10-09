@@ -14,6 +14,33 @@
     --color-theme: #c24112;
     --color-theme-dark: #78270a;
     --degrado-theme: linear-gradient(0deg, rgba(185, 54, 6, 1) 0%, rgba(120, 39, 10, 1) 100%);
+    --degrado-blue: linear-gradient(0deg, rgb(9, 6, 185) 0%, rgb(9, 8, 94) 100%);
+    --degrado-red: linear-gradient(0deg, rgb(185, 6, 6) 0%, rgb(94, 8, 8) 100%);
+    --degrado-green: linear-gradient(0deg, rgb(6, 185, 15) 0%, rgb(8, 94, 8) 100%);
+}
+
+.dg-theme {
+    background: var(--degrado-theme);
+}
+
+.bg-theme {
+    background: var(--color-theme);
+}
+
+.bg-theme-dark {
+    background: var(--color-theme-dark);
+}
+
+.dg-blue {
+    background: var(--degrado-blue);
+}
+
+.dg-red {
+    background: var(--degrado-red);
+}
+
+.dg-green {
+    background: var(--degrado-green);
 }
 
 body {
@@ -183,8 +210,9 @@ h6 {
     width: 100%;
     position: relative;
     padding: 200px 0 120px 0;
-    background-image: linear-gradient( rgba(185, 54, 6, 0.795), rgba(82, 35, 4, 0.637)), url('../img/vengadores.webp');
+    background-image: linear-gradient( rgba(185, 54, 6, 0.315), rgba(82, 35, 4, 0.253)), url('../img/game.webp');
     background-size: cover;
+    background-position: center;
     height: 100vh;
 }
 
@@ -200,13 +228,14 @@ h6 {
 
 #intro .intro-info h2 {
     color: #fff;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     font-size: 48px;
     font-weight: 700;
+    text-shadow: 0 0 8px rgba(0, 0, 0, 10.9);
 }
 
 #intro .intro-info h2 span {
-    color: #74b5fc;
+    color: var(--color-theme);
     text-decoration: underline;
 }
 
@@ -706,7 +735,6 @@ h6 {
 }
 
 #why-us .card {
-    background: var(--color-theme);
     border-color: var(--color-theme-dark);
     border-radius: 10px;
     margin: 0 15px;
@@ -1407,7 +1435,6 @@ h6 {
     }
     #header .logo h1 {
         font-size: 28px;
-        padding: 8px 0;
     }
     #intro {
         padding: 140px 0 60px 0;
@@ -1421,7 +1448,6 @@ h6 {
         width: 80%;
         float: none;
         margin: auto;
-        text-align: center;
     }
     #why-us .card {
         margin: 0;
@@ -1488,11 +1514,22 @@ h6 {
     font-size: 3rem;
 }
 
+.radius_adaptable {
+    border-radius: 10%;
+}
+
 
 /* Celulares */
 
 @media only screen and (max-width:425px) {
     .pt-xs-2 {
         padding-top: 2rem;
+    }
+    .px-xs-3 {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    #header.header-scrolled {
+        height: 70px;
     }
 }

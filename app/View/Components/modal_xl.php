@@ -17,7 +17,7 @@ class modal_xl extends Component
     public $ok;
     public $ok_name;
 
-    public function __construct($title, $id, $ok=true, $ok_name="Guardar", $length="")
+    public function __construct($title, $id, $ok=true, $ok_name="Guardar")
     {
         $this->title = $title;
         $this->id = $id;

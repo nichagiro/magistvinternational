@@ -86,8 +86,8 @@
       <div class="logo float-left row d-flex align-items-center">
         <!-- Uncomment below if you prefer to use an image logo -->
         <h1 class="text-light">
-          <a href="#header" class="row d-flex align-items-center">
-            <img src="{{ asset('img/logoglobal.webp') }}" alt="magistv" class="img-fluid">
+          <a href="#header" class="row d-flex align-items-center  justify-content-center">
+            <img src="{{ asset('img/logoglobal.webp') }}" alt="magistv" class="img-fluid px-xs-3" style="margin: auto">
             <span id="title" class="d-none d-md-block text-white pl-2">MAGISTVINTERNATIONAL</span>
           </a>
         </h1> 
@@ -111,15 +111,23 @@
   <section id="intro" class="clearfix">
     <div class="container">
       <div class="intro-info">
-        <h2>Series<br><span>Peliculas</span><br>Deportes</h2>
+        {{-- <h2>Series<br><span>Peliculas</span><br>Deportes</h2> --}}
+        <h2>TELEVISIÓN<br><span>EN VIVO</span><br>PARA TU HOGAR</h2>
+        <b class="text-white text-xs-justify">
+          MAGIS TV es una aplicación innovadora, exclusiva para dispositivos Android,
+          la cual mediante nuestro servicio de IPTV Latino reproduce en una interfaz sencilla canales en HD. Somos el
+          servicio de IPTV con mayor estabilidad, contenido y la mejor experiencia de usuario. Servidores privados y dedicados para
+          brindar la mayor estabilidad en su programación, sin pausas ni freeze.
+        </b>
         <div>
           {{-- modal --}}
-          <button data-toggle="modal" data-target="#app_magis" class="btn-get-started d-none d-lg-block">Descargar</button>
+          <button data-toggle="modal" data-target="#app_magis" class="btn-get-started d-none d-lg-block mt-4">Descargar</button>
           {{-- movil --}}
-          <a class="d-lg-none btn-get-started" download href="{{ asset('app/magis_v3.9.1_mobile.apk') }}">Descargar</a>
-          <x-modal_xl ok="false" length="xl" title="Descargar MagisTV" id="app_magis">
+          <a class="d-lg-none btn-get-started mt-4" download href="{{ asset('app/magis_v3.9.1_mobile.apk mt-4') }}">Descargar</a>
+          {{-- component --}}
+          <x-modal_xl ok="false" length="xl" title="DESCARGA E INSTALA LA APP" rounded="true" id="app_magis">
             <div class="row p-3 justify-content-around">
-              <div class="col-md-3 bg-success px-4 py-5 text-white rounded">
+              <div class="col-md-3 dg-green px-4 py-5 text-white radius_adaptable">
                 <div class="d-flex align-items-center justify-content-center">
                   <i class="fab fa-android fa-3x"></i>
                   <p class="h4 font-weight-bold pl-2">Android</p>
@@ -128,7 +136,7 @@
                   <a download href="{{ asset('app/magis_v3.9.1_mobile.apk') }}" id="btn-download">Descargar</a>
                 </div>
               </div>
-              <div class="col-md-3 bg-danger px-4 py-5 text-white rounded">
+              <div class="col-md-3 dg-red px-4 py-5 text-white radius_adaptable">
                 <div class="d-flex align-items-center justify-content-center">
                   <i class="fas fa-tv fa-3x"></i>
                   <p class="h4 font-weight-bold pl-2">Android TV</p>
@@ -137,7 +145,7 @@
                   <a download href="{{ asset('app/magis_v3.9.1_tv.apk') }}" id="btn-download">Descargar</a>
                 </div>
               </div>
-              <div class="col-md-3 bg-primary px-4 py-5 text-white rounded">
+              <div class="col-md-3 dg-blue px-4 py-5 text-white radius_adaptable">
                 <div class="d-flex align-items-center justify-content-center">
                   <i class="fab fa-napster fa-3x"></i>
                   <p class="h4 font-weight-bold pl-2">Fire TV</p>
@@ -158,9 +166,15 @@
     ============================-->
     <section id="about">
       <div class="container">
+        <header class="section-header">
+          <h3>PAQUETES INCLUIDOS</h3>
+        </header>
+        <div class="w-100 text-center">
+          <img loading="lazy" src="{{ asset('img/paquetes_incluidos.webp') }}" alt="paqetes incluidos" class="img-fluid">
+        </div>
         <div class="row about-extra">
           <div class="col-lg-6 wow fadeInUp order-1 order-lg-2">
-            <img loading="lazy" src="{{ asset('img/canales premiun.webp') }}" class="img-fluid" alt="">
+            <img loading="lazy" src="{{ asset('img/canales premiun.webp') }}" class="img-fluid" alt="premim">
           </div>
           <div class="d-none d-sm-block col-lg-6 wow fadeInUp order-2 order-lg-1">
             <h4 class="pb-3">EXCLUSIVOS</h4>
@@ -301,7 +315,7 @@
         {{-- PRECIOS --}}
         <div class="row row-eq-height justify-content-center">
           <div class="col-lg-4 mb-4">
-            <div class="card wow bounceInUp">
+            <div class="card wow bounceInUp dg-blue">
                 <h2>1 MES</h2>
                 <small>Tarifa Fija</small>
               <div class="card-body">
@@ -333,7 +347,7 @@
             </div>
           </div>
           <div class="col-lg-4 mb-4">
-            <div class="card wow bounceInUp">
+            <div class="card wow bounceInUp dg-red">
                 <h2>3 MESES</h2>
               <div class="card-body">
                 <b class="precio">$27</b>
@@ -364,7 +378,7 @@
             </div>
           </div>
           <div class="col-lg-4 mb-4">
-            <div class="card wow bounceInUp">
+            <div class="card wow bounceInUp dg-green">
                 <h2>6 MESES</h2>
                 <small>1 mes gratis</small>
               <div class="card-body">
@@ -407,10 +421,8 @@
           <h3>CONTENIDO VOD</h3>
         </header>
         <p class="container text-justify">
-          MAGIS TV es una aplicación innovadora, exclusiva para dispositivos Android, la cual mediante nuestro
-          servicio de IPTV Latino reproduce en una interfaz sencilla canales en HD. Somos el servicio de IPTV con mayor
-          estabilidad, contenido y la mejor experiencia de usuario. Servidores privados y dedicados para brindar la mayor 
-          estabilidad en su programación, sin pausas ni freeze
+          Con cualquier plan que te suscribas disfrutas de mas de 10.000 titulo en peliculas y
+          series de las plataformas de streaming mas populares.
         </p>
         <div class="pt-xs-2 pt-sm-4 pt-lg-5 row justify-content-center">
           <div class="col-lg-11">
@@ -473,10 +485,16 @@
   <footer id="footer">
     <div class="container">
       <div class="copyright">
-        &copy; Copyright <strong>MAGIS TVI NTERNATIONAL</strong>. All Rights Reserved
+        &copy; Copyright <strong>MAGIS TV INTERNATIONAL</strong>
       </div>
       <div class="credits">
-        Designed by <a target="_blank" href="https://overweb.com.co/">OVERWEB</a>
+        DMCA: MAGIS TV GLOBAL es un distribuidor externo y autorizado de servicios digitales de material de entretención que
+        suministra en su totalidad MAGIS TV, quienes cumplen con toda norma legal según el país de origen desde el cual distribuyen
+        el servicio. MAGIS TV GLOBAL no almacena ni sube en su sitio o servidor, cualquier archivo de vídeo, película, archivo
+        multimedia de ningún tipo o cualquier otro material protegido por derechos de autor. MAGIS TV y MAGIS TV INTERNATIONL no 
+        poseen ni comercializan decodificadores de ningún tipo de TV satelital. MAGIS TV INTERNATIONAL cumple solo en calidad de 
+        distribuidor de servicio para el alcance global. Todos los derechos reservados
+        <a target="_blank" href="https://overweb.com.co/">OVERWEB</a>
       </div>
     </div>
   </footer><!-- #footer -->
@@ -485,7 +503,12 @@
     <i class="fab fa-whatsapp fa-2x"></i>
   </a>
   <!-- Uncomment below i you want to use a preloader -->
-  <div id="preloader"></div> 
+  <div id="preloader"></div>
+  {{-- SRC IMAGENES SLIDER --}}
+  <p id="slider_id" data-id="1" class="d-none"></p>
+  <span id="slider-1"  class="d-none">{{asset('img/game.webp')}}</span>
+  <span id="slider-2"  class="d-none">{{asset('img/venom.webp')}}</span>
+  <span id="slider-3"  class="d-none">{{asset('img/shang.webp')}}</span>
   <!-- JavaScript Libraries -->
   <script src="{{ asset('lib/jquery/jquery.min.js') }}"></script>
   <script src="{{ asset('lib/jquery/jquery-migrate.min.js') }}"></script>

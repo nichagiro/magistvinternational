@@ -1,6 +1,31 @@
 (function($) {
     "use strict";
 
+    // SLIDER SHOW
+    const img1 = document.getElementById('slider-1');
+    const img2 = document.getElementById('slider-2');
+    const img3 = document.getElementById('slider-3');
+
+    let intro = document.getElementById('intro');
+    var count = 1;
+
+    setInterval(() => {
+        if (count == 1) {
+            intro.style.backgroundImage = 'linear-gradient( rgba(185, 54, 6, 0.315), rgba(82, 35, 4, 0.253)),' + 'url(' + img2.innerText + ')';
+        };
+        if (count == 2) {
+            intro.style.backgroundImage = 'linear-gradient( rgba(185, 54, 6, 0.315), rgba(82, 35, 4, 0.253)),' + 'url(' + img3.innerText + ')';
+        };
+        if (count == 3) {
+            intro.style.backgroundImage = 'linear-gradient( rgba(185, 54, 6, 0.315), rgba(82, 35, 4, 0.253)),' + 'url(' + img1.innerText + ')';
+        };
+        if (count == 4) {
+            count = 0;
+        }
+        count++
+    }, 7000);
+
+
     // Preloader (if the #preloader div exists)
     $(window).on('load', function() {
         if ($('#preloader').length) {
