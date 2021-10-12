@@ -3,10 +3,10 @@
 <head>
   {{-- SEO BASIC --}}
   <meta charset="utf-8">
-  <title>MAGIS TV INTERNATIONAL | SERIES | PELICULAS | DEPORTES |</title>
+  <title>MAGIS TV INTERNATIONAL | SERIES | películas | DEPORTES |</title>
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <meta content="magis tv international, series, peliculas, deportes, premium, netflix, prime, magi" name="keywords">
-  <meta content="magis tv international, disfruta del mejor contenido en full calidad, peliculas, series, deportes, canales en vivo y premium, netflix, prime, disney plus, entre otros." name="description">
+  <meta content="magis tv international, series, películas, deportes, premium, netflix, prime, magi" name="keywords">
+  <meta content="magis tv international, disfruta del mejor contenido en full calidad, películas, series, deportes, canales en vivo y premium, netflix, prime, disney plus, entre otros." name="description">
   <meta name="subject" content="Productos cosmeticos">
   <meta name="author" content="Nicolas Chamorro Giron">
   <meta name="copyright" content="© overweb">
@@ -17,19 +17,19 @@
   <link rel="canonical" href="https://magistvinternational.com/">
   {{-- TWITER SEO --}}
   <meta name="twitter:card" content="summary" />	
-  <meta name="twitter:title" content="MAGIS TV INTERNATIONAL | SERIES | PELICULAS | DEPORTES | PREMIUM" >
-  <meta name="twitter:description" content="magis tv international, disfruta del mejor contenido en full calidad, peliculas, series, deportes, canales en vivo y premium, netflix, prime, disney plus, entre otros." >
+  <meta name="twitter:title" content="MAGIS TV INTERNATIONAL | SERIES | películas | DEPORTES | PREMIUM" >
+  <meta name="twitter:description" content="magis tv international, disfruta del mejor contenido en full calidad, películas, series, deportes, canales en vivo y premium, netflix, prime, disney plus, entre otros." >
   <meta name="twitter:image" content="https://magistvinternational.com/img/game.webp" >
   <meta name="twitter:site" content="@Nicolas63783814" >
   <meta name="twitter:creator" content="@Nicolas63783814" >
   {{-- Open Graph  --}}
-  <meta property="og:title" content="MAGIS TV INTERNATIONAL | SERIES | PELICULAS | DEPORTES | PREMIUM"/>
+  <meta property="og:title" content="MAGIS TV INTERNATIONAL | SERIES | películas | DEPORTES | PREMIUM"/>
   <meta property="og:type" content="article"/>
   <meta property="og:url" content="https://magistvinternational.com"/>
   <meta property="og:site_name" content="MAGIS TV INTERNATIONAL"/>
   <meta property="og:image" content="https://magistvinternational.com/img/game.webp"/>
   <meta property="og:image:alt" content="MAGIS TV ENTRETENIMIENTO"/>	
-  <meta property="og:description" content="magis tv international, disfruta del mejor contenido en full calidad, peliculas, series, deportes, canales en vivo y premium, netflix, prime, disney plus, entre otros." />
+  <meta property="og:description" content="magis tv international, disfruta del mejor contenido en full calidad, películas, series, deportes, canales en vivo y premium, netflix, prime, disney plus, entre otros." />
   <script type="application/ld+json">
     {
         "@context": "http://schema.org",
@@ -115,9 +115,9 @@
         <h2>TELEVISIÓN<br><span>EN VIVO</span><br>PARA TU HOGAR</h2>
         <b class="text-white text-xs-justify">
           MAGIS TV es una aplicación innovadora, exclusiva para dispositivos Android,
-          la cual mediante nuestro servicio de IPTV Latino reproduce en una interfaz sencilla canales en HD. Somos el
+          la cuál mediante nuestro servicio de IPTV Latino reproduce en una interfaz sencilla canales en HD. Somos el
           servicio de IPTV con mayor estabilidad, contenido y la mejor experiencia de usuario. Servidores privados y dedicados para
-          brindar la mayor estabilidad en su programación, sin pausas ni freeze.
+          brindar la mayor estabilidad en su programación.
         </b>
         <div class="row py-3">
           <div class="col-4">
@@ -244,7 +244,7 @@
         <div class="row">
           <div class="col-md-6 col-lg-5 offset-lg-1 wow bounceInUp" data-wow-delay="0.2s" data-wow-duration="1.4s">
             <p class="description">
-              Reúne a tus amigos y familiares para ver sus eventos deportivos favoritos, En MagisTV tenemos una gran
+              Reúne a tus amigos y familiares para ver tus eventos deportivos favoritos, En MagisTV tenemos una gran
               cantidad de canales de deportes, y canales de Pases exclusivos totalmente gratis en cualquiera de nuestros planes.
             </p>
             <div class="row justify-content-center">
@@ -438,8 +438,8 @@
           <h3>CONTENIDO VOD</h3>
         </header>
         <p class="container text-justify">
-          Con cualquier plan que te suscribas disfrutas de mas de 10.000 titulo en peliculas y
-          series de las plataformas de streaming mas populares.
+          Con cualquier plan que te suscribas disfrutas de más de 10.000 titulo en películas y
+          series de las plataformás de streaming más populares.
         </p>
         <div class="pt-xs-2 pt-sm-4 pt-lg-5 row justify-content-center">
           <div class="col-lg-11">
@@ -494,6 +494,12 @@
             </div>
           </div>
         </div>
+        <div class="container text-justify mt-5">
+          <small>
+            MAGIST TV International no ofrece cuentas para estas plataformas solo su contenido en el VOD de
+            MagisTV / La disponibilidad de las películas o series depende de MagisTV y no MAGIS TV INTERNATIONAL.
+          </small>
+        </div>
       </div>
     </section>
     {{-- MEDIOS DE PAGO --}}
@@ -511,7 +517,7 @@
       <div class="credits">
         <p>
           DMCA: MAGIS TV INTERNATIONAL es un distribuidor externo y autorizado de servicios digitales de material de entretención que
-          suministra en su totalidad MAGIS TV, quienes cumplen con toda norma legal según el país de origen desde el cual distribuyen
+          suministra en su totalidad MAGIS TV, quienes cumplen con toda norma legal según el país de origen desde el cuál distribuyen
           el servicio. MAGIS TV INTERNATIONAL no almacena ni sube en su sitio o servidor, cualquier archivo de vídeo, película, archivo
           multimedia de ningún tipo o cualquier otro material protegido por derechos de autor. MAGIS TV y MAGIS TV INTERNATIONAL no 
           poseen ni comercializan decodificadores de ningún tipo de TV satelital. MAGIS TV INTERNATIONAL cumple solo en calidad de 
