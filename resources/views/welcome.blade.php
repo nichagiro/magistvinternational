@@ -166,7 +166,7 @@
                   <p class="h4 font-weight-bold pl-2">Fire TV</p>
                 </div>
                 <div class="d-flex justify-content-center mt-2">
-                  <a download href="{{ asset('app/magis_v3.9.1_mobile.apk') }}" id="btn-download">Descargar</a>
+                  <a download href="{{ asset('app/magis_v3.9.1_tv.apk') }}" id="btn-download">Descargar</a>
                 </div>
                 <div class="text-center">
                   <small >Fire TV Stick / HD / 4K / Lite / Cube</small>
