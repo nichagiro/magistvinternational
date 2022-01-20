@@ -439,29 +439,29 @@
         </header>
         <p class="container text-justify">
           Con cualquier plan que te suscribas disfrutas de más de 10.000 titulo en películas y
-          series de las plataformás de streaming más populares.
+          series de las plataformas de streaming más populares.
         </p>
         <div class="pt-xs-2 pt-sm-4 pt-lg-5 row justify-content-center">
           <div class="col-lg-11">
             <div class="d-none d-md-block wow fadeInUp">
               <div class="testimonial-item row">
                 <div class="col-2 client-logo rounded">
-                  <img loading="lazy" src="{{ asset('img/VODhbomax.webp')}}"  class="img-fluid rounded" alt="canal">
+                  <img loading="lazy" src="{{ asset('img/VODhbomax.webp')}}"  class="img-fluid rounded" alt="HBO">
                 </div>
                 <div class="col-2 client-logo rounded">
-                  <img loading="lazy" src="{{ asset('img/VODdisney.webp')}}"  class="img-fluid rounded" alt="canal">
+                  <img loading="lazy" src="{{ asset('img/VODdisney.webp')}}"  class="img-fluid rounded" alt="Disney">
                 </div>
                 <div class="col-2 client-logo rounded">
-                  <img loading="lazy" src="{{ asset('img/VODprime.webp')}}"  class="img-fluid rounded" alt="canal">
+                  <img loading="lazy" src="{{ asset('img/VODprime.webp')}}"  class="img-fluid rounded" alt="Prime">
                 </div>
                 <div class="col-2 client-logo rounded">
-                  <img loading="lazy" src="{{ asset('img/VODnatlix.webp')}}"  class="img-fluid rounded" alt="canal">
+                  <img loading="lazy" src="{{ asset('img/VODnetflix.webp')}}"  class="img-fluid rounded" alt="Netflix">
                 </div>
                 <div class="col-2 client-logo rounded">
-                  <img loading="lazy" src="{{ asset('img/VODaple.webp')}}"  class="img-fluid rounded" alt="canal">
+                  <img loading="lazy" src="{{ asset('img/VODaple.webp')}}"  class="img-fluid rounded" alt="APLE">
                 </div>
                 <div class="col-2 client-logo rounded">
-                  <img loading="lazy" src="{{ asset('img/VODhulu.webp')}}"  class="img-fluid rounded" alt="canal">
+                  <img loading="lazy" src="{{ asset('img/VODhulu.webp')}}"  class="img-fluid rounded" alt="HULU">
                 </div>
               </div>
             </div>
@@ -472,7 +472,7 @@
                   <img loading="lazy" src="{{ asset('img/VODhbomax.webp')}}"  class="img-fluid rounded" alt="canal">
                 </div>
                 <div class="col-6 client-logo rounded">
-                  <img loading="lazy" src="{{ asset('img/VODnatlix.webp')}}"  class="img-fluid rounded" alt="canal">
+                  <img loading="lazy" src="{{ asset('img/VODnetflix.webp')}}"  class="img-fluid rounded" alt="canal">
                 </div>
               </div>
               <div class="testimonial-item row">
@@ -536,7 +536,7 @@
   <div id="preloader"></div>
   {{-- SRC IMAGENES SLIDER --}}
   <p id="slider_id" data-id="1" class="d-none"></p>
-  <span id="slider-1"  class="d-none">{{asset('img/game.webp')}}</span>
+  <span id="slider-1"  class="d-none">{{asset('img/slider_caricatura.webp')}}</span>
   <span id="slider-2"  class="d-none">{{asset('img/venom.webp')}}</span>
   <span id="slider-3"  class="d-none">{{asset('img/shang.webp')}}</span>
   <!-- JavaScript Libraries -->

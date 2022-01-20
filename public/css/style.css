@@ -182,7 +182,7 @@ h6 {
     width: 100%;
     position: relative;
     padding: 150px 0 120px 0;
-    background-image: linear-gradient(rgba(185, 54, 6, .315), rgba(82, 35, 4, .253)), url(../img/game.webp);
+    background-image: linear-gradient(rgba(185, 54, 6, .315), rgba(82, 35, 4, .253)), url(../img/slider_caricatura.webp);
     background-size: cover;
     background-position: center;
     height: 100vh
