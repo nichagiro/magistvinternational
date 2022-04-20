@@ -1,10 +1,10 @@
 <?php
 
-namespace App\View\Components;
+namespace App\View\Components\footer;
 
 use Illuminate\View\Component;
 
-class medios_pago extends Component
+class index extends Component
 {
     /**
      * Create a new component instance.
@@ -13,7 +13,7 @@ class medios_pago extends Component
      */
     public function __construct()
     {
-        //
+       
     }
 
     /**
@@ -23,6 +23,6 @@ class medios_pago extends Component
      */
     public function render()
     {
-        return view('components.medios_pago');
+        return view('components.footer.index');
     }
 }

@@ -6,8 +6,8 @@
     const img2 = document.getElementById('slider-2');
     const img3 = document.getElementById('slider-3');
 
-    let intro = document.getElementById('intro');
-    var count = 1;
+    const intro = document.getElementById('intro');
+    let count = 1;
 
     setInterval(() => {
         if (count == 1) {
