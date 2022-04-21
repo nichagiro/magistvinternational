@@ -23,8 +23,22 @@
     background: var(--dg-purple) !important;
 }
 
-.bg-theme-dark {
+.bg-dark {
+    background: var(--color-black) !important;
+}
+
+.bg-blue {
     background: var(--color-blue) !important;
+}
+
+
+.bg-purple {
+    background: var(--color-purple) !important;
+}
+
+
+.text-dark {
+    color: var(--color-black);
 }
 
 
@@ -179,7 +193,7 @@ h6 {
     width: 100%;
     position: relative;
     padding: 150px 0 120px 0;
-    background-image: linear-gradient(rgba(10, 14, 31 , .315), rgba(18, 57, 104, .253)), url(../img/slider_caricatura.webp);
+    background-image: linear-gradient(rgba(10, 14, 31 , .315), rgba(18, 57, 104, .253)), url(../img/sing.webp);
     background-size: cover;
     background-position: center;
     height: 100vh
@@ -204,7 +218,7 @@ h6 {
 }
 
 #intro .intro-info h2 span {
-    color: var(--color-black);
+    color: var(--color-blue);
     text-decoration: underline
 }
 
@@ -464,7 +478,7 @@ h6 {
 
 .section-header h3 {
     font-size: 36px;
-    /* color: var(--color-black); */
+    color: var(--color-black);
     text-align: center;
     font-weight: bolder;
     position: relative
@@ -505,7 +519,8 @@ h6 {
 }
 
 #about {
-    padding: 60px 0
+    padding: 60px 0;
+    /* background-color: white; */
 }
 
 #about .about-container .background {
@@ -662,7 +677,7 @@ h6 {
 
 #why-us {
     padding: 60px 0;
-    background: var(--color-blue)
+    /* background: var(--color-blue) */
 }
 
 #why-us .section-header h3,

@@ -21,15 +21,16 @@ class IndexController extends Controller
 
     public function __construct()
     {
-        $this->seo = (object) $this->seo;        
-        $this->seo->url = env('APP_URL').Route::currentRouteName(); // nombre url dinamica
-        $this->seo->img = asset('img/game.webp') ; // imagen representativa open graph
+        $this->seo = (object) $this->seo;
+        $this->seo->url = env('APP_URL') . Route::currentRouteName(); // nombre url dinamica
+        $this->seo->img = asset('img/game.webp'); // imagen representativa open graph
     }
 
     public function index()
-    {        
+    {
         $seo = $this->seo;
-        $bodyClass = 'dg-theme text-white';
-        return view('welcome', compact('seo','bodyClass'));
+        $bodyClass = 'dg-theme';
+        return view('welcome', compact('seo', 'bodyClass'));
     }
+
 }

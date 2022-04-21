@@ -1,4 +1,4 @@
-<section id="testimonials" class="section-bg">
+<section id="testimonials" class="bg-white">
     <div class="p-3">
       <header class="section-header">
         <h3>CONTENIDO VOD</h3>
