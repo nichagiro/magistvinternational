@@ -1,35 +1,32 @@
 :root {
-    --color-theme: #c24112;
-    --color-theme-dark: #78270a;
-    --degrado-theme: linear-gradient(0deg, rgba(185, 54, 6, 1) 0%, rgba(120, 39, 10, 1) 100%);
-    --degrado-blue: linear-gradient(0deg, rgb(9, 6, 185) 0%, rgb(9, 8, 94) 100%);
-    --degrado-red: linear-gradient(0deg, rgb(185, 6, 6) 0%, rgb(94, 8, 8) 100%);
-    --degrado-green: linear-gradient(0deg, rgb(6, 185, 15) 0%, rgb(8, 94, 8) 100%)
-}
+    --color-black-light: #121a3a;
+    --color-black: #0a0e1f;
+    --color-blue: #1c6ed2;
+    --color-blue-dark: #123968;
+    --color-purple: #871993;
+    --color-purple-dark: #5c1064;
 
-.dg-theme {
-    background: var(--degrado-theme)
-}
-
-.bg-theme {
-    background: var(--color-theme)
-}
-
-.bg-theme-dark {
-    background: var(--color-theme-dark)
+    --dg-theme: linear-gradient(0deg, var(--color-blue-dark) 0%, var(--color-purple) 50%, var(--color-black) 100%);
+    --dg-blue: linear-gradient(90deg, var(--color-black) 0%, var(--color-blue-dark) 100%);
+    --dg-purple: linear-gradient(90deg, var(--color-purple) 0%, var(--color-purple-dark) 100%);
 }
 
 .dg-blue {
-    background: var(--degrado-blue)
+    background: var(--dg-blue) !important;
 }
 
-.dg-red {
-    background: var(--degrado-red)
+.dg-theme {
+    background: var(--dg-theme) !important;
 }
 
-.dg-green {
-    background: var(--degrado-green)
+.dg-purple {
+    background: var(--dg-purple) !important;
 }
+
+.bg-theme-dark {
+    background: var(--color-blue) !important;
+}
+
 
 body {
     background: #fff;
@@ -45,7 +42,7 @@ a {
 a:active,
 a:focus,
 a:hover {
-    color: --var(color-theme);
+    color: --var(color-black);
     outline: 0;
     text-decoration: none
 }
@@ -109,7 +106,7 @@ h6 {
     top: calc(50% - 30px);
     left: calc(50% - 30px);
     border: 6px solid #f2f2f2;
-    border-top: 6px solid #eb612e;
+    border-top: 6px solid var(--color-purple);
     border-radius: 50%;
     width: 60px;
     height: 60px;
@@ -150,7 +147,7 @@ h6 {
 #header.header-pages,
 #header.header-scrolled {
     height: 90px;
-    background: #eb612e;
+    background: var(--dg-blue);
     box-shadow: 0 0 30px rgba(127, 137, 161, .3)
 }
 
@@ -182,7 +179,7 @@ h6 {
     width: 100%;
     position: relative;
     padding: 150px 0 120px 0;
-    background-image: linear-gradient(rgba(185, 54, 6, .315), rgba(82, 35, 4, .253)), url(../img/slider_caricatura.webp);
+    background-image: linear-gradient(rgba(10, 14, 31 , .315), rgba(18, 57, 104, .253)), url(../img/slider_caricatura.webp);
     background-size: cover;
     background-position: center;
     height: 100vh
@@ -207,7 +204,7 @@ h6 {
 }
 
 #intro .intro-info h2 span {
-    color: var(--color-theme);
+    color: var(--color-black);
     text-decoration: underline
 }
 
@@ -226,8 +223,8 @@ h6 {
 }
 
 .btn-get-started {
-    background: var(--degrado-theme);
-    border: 2px solid var(--color-theme-dark);
+    background: var(--dg-blue);
+    border: 2px solid var(--color-blue);
     color: #fff
 }
 
@@ -467,7 +464,7 @@ h6 {
 
 .section-header h3 {
     font-size: 36px;
-    color: var(--color-theme);
+    /* color: var(--color-black); */
     text-align: center;
     font-weight: bolder;
     position: relative
@@ -503,12 +500,11 @@ h6 {
     width: 100%;
     position: relative;
     padding: 200px 0 120px 0;
-    background-image: linear-gradient(rgba(185, 54, 6, .795), rgba(82, 35, 4, .637)), url('../img/bg futbol.webp');
+    background-image: linear-gradient(rgba(10, 14, 31 , .315), rgba(18, 57, 104, .253)), url('../img/bg futbol.webp');
     background-size: cover
 }
 
 #about {
-    background: #fff;
     padding: 60px 0
 }
 
@@ -666,7 +662,7 @@ h6 {
 
 #why-us {
     padding: 60px 0;
-    background: var(--color-theme-dark)
+    background: var(--color-blue)
 }
 
 #why-us .section-header h3,
@@ -675,7 +671,7 @@ h6 {
 }
 
 #why-us .card {
-    border-color: var(--color-theme-dark);
+    border-color: var(--color-blue);
     border-radius: 10px;
     margin: 0 15px;
     padding: 15px 0;
@@ -1082,7 +1078,7 @@ h6 {
     font-weight: bolder;
     letter-spacing: 3px;
     text-transform: uppercase;
-    color: var(--color-theme)
+    color: var(--color-black)
 }
 
 #contact .contact-about p {
@@ -1190,7 +1186,7 @@ h6 {
 }
 
 #footer {
-    background: var(--color-theme);
+    background: var(--dg-blue);
     padding: 0 0 30px 0;
     color: #eee;
     font-size: 14px

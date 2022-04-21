@@ -39,7 +39,7 @@
           </div>
         </div>
         <div class="col-lg-4 mb-4">
-          <div class="card wow bounceInUp dg-red">
+          <div class="card wow bounceInUp dg-theme">
               <h2>3 MESES</h2>
             <div class="card-body">
               <b class="precio">$27</b>
@@ -70,7 +70,7 @@
           </div>
         </div>
         <div class="col-lg-4 mb-4">
-          <div class="card wow animate bounceInRight delay-2s dg-green">
+          <div class="card wow animate bounceInRight delay-2s dg-purple">
               <h2>6 MESES</h2>
               <small>1 mes gratis</small>
             <div class="card-body">

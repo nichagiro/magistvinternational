@@ -3,33 +3,33 @@
 <head>
   {{-- SEO BASIC --}}
   <meta charset="utf-8">
-  <title>{{$title}}</title>
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta name="language" content="es">
+  <meta name="revisit-after" content="7 days">
+  <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" >
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="keywords" content="{{$keywords}}">
   <meta name="description" content="{{$description}}">
   <meta name="subject" content="{{$subject}}">
   <meta name="author" content="{{$autor}}">
   <meta name="copyright" content="{{$copyright}}">
-  <meta name="language" content="es">
-  <meta name="revisit-after" content="7 days">
   <meta name="robots" content="{{$robots}}">
-  <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" >
-  <link rel="canonical" href="{{}}">
+  <link rel="canonical" href="{{$url}}">
+  <title>{{$title}}</title>
   {{-- TWITER SEO --}}
   <meta name="twitter:card" content="summary" />	
-  <meta name="twitter:title" content="MAGIS TV INTERNATIONAL | SERIES | PELÍCULAS | DEPORTES | PREMIUM" >
-  <meta name="twitter:description" content="magis tv international, disfruta del mejor contenido en full calidad, películas, series, deportes, canales en vivo y premium, netflix, prime, disney plus, entre otros." >
-  <meta name="twitter:image" content="https://magistvinternational.com/img/game.webp" >
+  <meta name="twitter:title" content="{{$title}}" >
+  <meta name="twitter:description" content="{{$description}}">
+  <meta name="twitter:image" content="{{$img}}" >
   <meta name="twitter:site" content="@Nicolas63783814" >
   <meta name="twitter:creator" content="@Nicolas63783814" >
   {{-- Open Graph  --}}
-  <meta property="og:title" content="MAGIS TV INTERNATIONAL | SERIES | PELÍCULAS | DEPORTES | PREMIUM"/>
-  <meta property="og:type" content="article"/>
-  <meta property="og:url" content="https://magistvinternational.com"/>
-  <meta property="og:site_name" content="MAGIS TV INTERNATIONAL"/>
-  <meta property="og:image" content="https://magistvinternational.com/img/game.webp"/>
-  <meta property="og:image:alt" content="MAGIS TV ENTRETENIMIENTO"/>	
-  <meta property="og:description" content="magis tv international, disfruta del mejor contenido en full calidad, películas, series, deportes, canales en vivo y premium, netflix, prime, disney plus, entre otros." />
+  <meta property="og:type" content="{{$type}}"/>
+  <meta property="og:title" content="{{$title}}"/>
+  <meta property="og:url" content="{{$url}}"/>
+  <meta property="og:image" content="{{$img}}"/>
+  <meta property="og:image:alt" content="{{$imgAlt}}"/>	
+  <meta property="og:description" content="{{$description}}">
+  <meta property="og:site_name" content="{{env('APP_NAME')}}"/>
   <script type="application/ld+json">
     {
         "@context": "http://schema.org",
@@ -54,8 +54,8 @@
       "applicationCategory": "EntertainmentApplication",
       "aggregateRating": {
         "@type": "AggregateRating",
-        "ratingValue": "4.7",
-        "ratingCount": "152949864"
+        "ratingValue": "4.8",
+        "ratingCount": "189979820"
       },
       "offers": {
         "@type": "Offer",
@@ -74,7 +74,7 @@
   <link href="{{ asset('css/style.css') }}" rel="stylesheet">
   <link href="{{ asset('css/animacion.css') }}"  rel="stylesheet">
 </head>
-<body>
+<body class="{{$bodyClass}}">
     <x-navs.index/>
 
     <main id="main">

@@ -6,7 +6,7 @@ use Illuminate\Support\Facades\Route;
 
 
 
-Route::get('/', [IndexController::class, 'index'])->middleware('throttle:15,1')->name('aa');
+Route::get('/', [IndexController::class, 'index'])->middleware('throttle:15,1')->name('');
 
 Route::fallback(function () {
     return response(view('status.404'), 404);   

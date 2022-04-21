@@ -15,18 +15,21 @@ class IndexController extends Controller
         "autor" => 'Nicolas Chamorro Giron',
         "copyright" => '© overweb',
         "robots" => 'index, follow',
-
+        "imgAlt" => 'MAGIS TV ENTRETENIMIENTO',
+        "type" => 'article'
     ];
 
     public function __construct()
     {
-        $this->seo = (object) $this->seo;
-        $this->seo->canonical = env('APP_URL').Route::currentRouteName(); // nombre url dinamica
+        $this->seo = (object) $this->seo;        
+        $this->seo->url = env('APP_URL').Route::currentRouteName(); // nombre url dinamica
+        $this->seo->img = asset('img/game.webp') ; // imagen representativa open graph
     }
 
     public function index()
-    {
-        dd($this->seo);
-        return view('welcome', compact('seo'));
+    {        
+        $seo = $this->seo;
+        $bodyClass = 'dg-theme text-white';
+        return view('welcome', compact('seo','bodyClass'));
     }
 }

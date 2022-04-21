@@ -11,13 +11,13 @@
 
     setInterval(() => {
         if (count == 1) {
-            intro.style.backgroundImage = 'linear-gradient( rgba(185, 54, 6, 0.315), rgba(82, 35, 4, 0.253)),' + 'url(' + img2.innerText + ')';
+            intro.style.backgroundImage = 'linear-gradient(rgba(10, 14, 31 , .315), rgba(18, 57, 104, .253)),' + 'url(' + img2.innerText + ')';
         };
         if (count == 2) {
-            intro.style.backgroundImage = 'linear-gradient( rgba(185, 54, 6, 0.315), rgba(82, 35, 4, 0.253)),' + 'url(' + img3.innerText + ')';
+            intro.style.backgroundImage = 'linear-gradient(rgba(10, 14, 31 , .315), rgba(18, 57, 104, .253)),' + 'url(' + img3.innerText + ')';
         };
         if (count == 3) {
-            intro.style.backgroundImage = 'linear-gradient( rgba(185, 54, 6, 0.315), rgba(82, 35, 4, 0.253)),' + 'url(' + img1.innerText + ')';
+            intro.style.backgroundImage = 'linear-gradient(rgba(10, 14, 31 , .315), rgba(18, 57, 104, .253)),' + 'url(' + img1.innerText + ')';
         };
         if (count == 4) {
             count = 0;
