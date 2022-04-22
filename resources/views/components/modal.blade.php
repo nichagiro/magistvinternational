@@ -12,7 +12,7 @@
                 {{$slot}}
                 <div class="d-flex container justify-content-end container pb-3 pt-1 px-5">
                     {{$button}}
-                    <button type="button" class="btn bg-theme text-white mt-3 ml-3" style="border: 1px white solid" data-dismiss="modal">Cerrar</button>
+                    <button type="button" class="btn bg-blue-dark text-white mt-3 ml-3" style="border: 1px white solid" data-dismiss="modal">Cerrar</button>
                 </div>
             </div>
         </div>

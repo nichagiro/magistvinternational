@@ -1,4 +1,4 @@
-<section id="intro" class="clearfix">
+<section id="intro" class="intro-img clearfix">
     <div class="container">
       <div class="intro-info">
         <h2>TELEVISIÓN<br><span>EN VIVO</span><br>PARA TU HOGAR</h2>

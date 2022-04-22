@@ -12,15 +12,15 @@
 }
 
 .dg-blue {
-    background: var(--dg-blue) !important;
+    background: var(--dg-blue);
 }
 
 .dg-theme {
-    background: var(--dg-theme) !important;
+    background: var(--dg-theme);
 }
 
 .dg-purple {
-    background: var(--dg-purple) !important;
+    background: var(--dg-purple);
 }
 
 .bg-dark {
@@ -28,12 +28,16 @@
 }
 
 .bg-blue {
-    background: var(--color-blue) !important;
+    background: var(--color-blue);
+}
+
+.bg-blue-dark {
+    background: var(--color-blue-dark);
 }
 
 
 .bg-purple {
-    background: var(--color-purple) !important;
+    background: var(--color-purple);
 }
 
 
@@ -41,6 +45,9 @@
     color: var(--color-black);
 }
 
+.text-blue {
+    color: var(--color-blue);
+}
 
 body {
     background: #fff;
@@ -133,6 +140,7 @@ h6 {
         -webkit-transform: rotate(0);
         transform: rotate(0)
     }
+
     100% {
         -webkit-transform: rotate(360deg);
         transform: rotate(360deg)
@@ -144,6 +152,7 @@ h6 {
         -webkit-transform: rotate(0);
         transform: rotate(0)
     }
+
     100% {
         -webkit-transform: rotate(360deg);
         transform: rotate(360deg)
@@ -193,10 +202,17 @@ h6 {
     width: 100%;
     position: relative;
     padding: 150px 0 120px 0;
-    background-image: linear-gradient(rgba(10, 14, 31 , .315), rgba(18, 57, 104, .253)), url(../img/sing.webp);
     background-size: cover;
     background-position: center;
     height: 100vh
+}
+
+.intro-img{
+    background-image: linear-gradient(rgba(10, 14, 31, 0.507), rgba(18, 57, 104, 0.486)), url(../img/sing.webp);
+}
+
+.intro-img-resellers{
+    background-image: linear-gradient(rgba(10, 14, 31, 0.507), rgba(18, 57, 104, 0.486)), url(../img/stronge.webp);
 }
 
 #intro .intro-img {
@@ -441,7 +457,7 @@ h6 {
     background: 0 0;
     font-size: 24px;
     transition: all .4s;
-    outline: 0!important;
+    outline: 0 !important;
     line-height: 1;
     cursor: pointer;
     text-align: right
@@ -514,7 +530,7 @@ h6 {
     width: 100%;
     position: relative;
     padding: 200px 0 120px 0;
-    background-image: linear-gradient(rgba(10, 14, 31 , .315), rgba(18, 57, 104, .253)), url('../img/bg futbol.webp');
+    background-image: linear-gradient(rgba(10, 14, 31, .315), rgba(18, 57, 104, .253)), url('../img/bg futbol.webp');
     background-size: cover
 }
 
@@ -1347,6 +1363,7 @@ h6 {
     #testimonials .testimonial-item p {
         width: 80%
     }
+
     .card-md-3 {
         width: 30%;
         flex: none;
@@ -1358,22 +1375,27 @@ h6 {
         height: 60px;
         padding: 10px 0
     }
+
     #header .logo h1 {
         font-size: 28px
     }
+
     #intro {
         padding: 140px 0 60px 0
     }
+
     #intro .intro-img {
         width: 80%;
         float: none;
         margin: 0 auto 25px auto
     }
+
     #intro .intro-info {
         width: 80%;
         float: none;
         margin: auto
     }
+
     #why-us .card {
         margin: 0
     }
@@ -1383,26 +1405,35 @@ h6 {
     .back-to-top {
         bottom: 15px
     }
+    .my-md-5 {
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+    }
 }
 
 @media (max-width: 767px) {
     #intro .intro-info {
         width: 100%
     }
+
     #intro .intro-info h2 {
         font-size: 34px;
         margin-bottom: 30px
     }
+
     .section-header p {
         width: 100%
     }
+
     #testimonials .testimonial-item {
         text-align: center
     }
+
     #testimonials .testimonial-item .testimonial-img {
         float: none;
         margin: auto
     }
+
     #testimonials .testimonial-item h3,
     #testimonials .testimonial-item h4,
     #testimonials .testimonial-item p {
@@ -1446,22 +1477,36 @@ h6 {
     padding-right: 1rem;
 }
 
-
 /* CELULAR */
-
 @media only screen and (max-width: 425px) {
     .pt-xs-2 {
         padding-top: 2rem
     }
+
     .px-xs-3 {
         padding-left: 2rem;
         padding-right: 2rem
     }
+
     #header.header-scrolled {
         height: 70px
     }
+    .mt-xs-1{
+        margin-top: 1rem;
+    }
+
+    .my-xs-1 {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
     .my-xs-3 {
         margin-top: 3rem;
         margin-bottom: 3rem;
+    }
+
+    .my-xs-5 {
+        margin-top: 5rem;
+        margin-bottom: 5rem;
     }
 }

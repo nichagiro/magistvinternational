@@ -5,12 +5,12 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
-class IndexController extends Controller
+class ResellersController extends Controller
 {
     public $seo = [
-        "title" => 'MAGIS TV INTERNATIONAL | SERIES | PELÍCULAS | DEPORTES',
+        "title" => 'MAGIS TV INTERNATIONAL | APP DE PELICULAS | APLICACION DE SERIES',
         "keywords" => 'magis tv international, series, películas, deportes, premium, netflix, prime, magi',
-        "description" => 'magis tv international, disfruta del mejor contenido en full calidad, películas, series, deportes, canales en vivo y premium, netflix, prime, disney plus, entre otros.',
+        "description" => 'magis tv international, trabaja con nosotros y vende paquetes a tus usuarios para disfrutar de magis tv, peliculas, series, novelas, canales, deportes, etc',
         "subject"    => 'Entretenimiento, peliculas, series, anime, caricaturas',
         "autor" => 'Nicolas Chamorro Giron',
         "copyright" => '© overweb',
@@ -30,7 +30,6 @@ class IndexController extends Controller
     {
         $seo = $this->seo;
         $bodyClass = 'dg-theme';
-        return view('welcome', compact('seo', 'bodyClass'));
+        return view('resellers', compact('seo', 'bodyClass'));
     }
-
 }
