@@ -1,4 +1,8 @@
-<section id="why-us" class="wow fadeIn d-flex justify-content-center">
+<section id="why-us" class="wow fadeIn">
+    <header class="section-header">
+        <h3>PlANES RESELLERS</h3>
+        <p>Precios unicos y competitivos</p>
+      </header>
     <div class="row row-eq-height w-100 justify-content-center">
         <div class="col-lg-4 mb-4">
             <div class="card wow animated bounceInLeft delay-2s dg-blue">

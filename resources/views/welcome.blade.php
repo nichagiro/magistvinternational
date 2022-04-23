@@ -3,7 +3,8 @@
   <x-home.paquetesIncluidos/>
   <x-home.exclusivos/>
   <x-home.deportes/>
-  <x-home.suscripcion/>    
+  <x-home.suscripcion/> 
+  <x-home.invitacionReseller/>   
   <x-home.vod/>    
   <x-home.pagos/>
 

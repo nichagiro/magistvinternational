@@ -49,6 +49,15 @@
     color: var(--color-blue);
 }
 
+.text-purple {
+    color: var(--color-purple);
+}
+
+.border-button-purple {
+    border-bottom: 3px solid var(--color-purple)
+}
+
+
 body {
     background: #fff;
     color: #444;
@@ -63,7 +72,7 @@ a {
 a:active,
 a:focus,
 a:hover {
-    color: --var(color-black);
+    color: var(--color-purple);
     outline: 0;
     text-decoration: none
 }
@@ -101,6 +110,7 @@ h6 {
     z-index: 11;
     padding: 1.8rem
 }
+
 
 .back-to-top i {
     color: #fff

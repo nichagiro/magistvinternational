@@ -39,7 +39,7 @@
         "address": "",
         "sameAs": [
         "https://www.facebook.com/nichagiro",
-        "https://www.instagram.com/nicolaschamorrogiron/",
+        "https://www.instagram.com/magistvinter/",
         "https://linkedin.com/in/nicolas-chamorro-9aa594196"
         ]
     }
@@ -83,6 +83,7 @@
 
     <x-footer.index/>
 
+    <x-socials/>
     <x-whatsapp/>
     <x-loading/>
 
