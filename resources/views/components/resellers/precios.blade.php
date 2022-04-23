@@ -182,7 +182,7 @@
         </div>
         <div class="col-lg-4 mb-4">
             <div class="card wow animate bounceInRight delay-2s dg-purple">
-                <h2>PLATINO</h2>
+                <h2>SUPER PANEL ORO</h2>
                 <div class="card-body">
                     <b class="precio">1000 Creditos</b>
                     <ul class="ul-precios text-left">                    
