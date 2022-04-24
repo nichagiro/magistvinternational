@@ -5,20 +5,25 @@
     const img1 = document.getElementById('slider-1');
     const img2 = document.getElementById('slider-2');
     const img3 = document.getElementById('slider-3');
+    const img4 = document.getElementById('slider-4');
+
 
     const intro = document.getElementById('intro');
     let count = 1;
 
-    if(img1 && img2 && img3){
+    if(img1 && img2 && img3 && img4){
         setInterval(() => {
             if (count == 1) {
-                intro.style.backgroundImage = 'linear-gradient(rgba(10, 14, 31 , 0.507), rgba(18, 57, 104, 0.486)),' + 'url(' + img2.innerText + ')';
+                intro.style.backgroundImage = 'linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),' + 'url(' + img2.innerText + ')';
             };
             if (count == 2) {
-                intro.style.backgroundImage = 'linear-gradient(rgba(10, 14, 31 , 0.507), rgba(18, 57, 104, 0.486)),' + 'url(' + img3.innerText + ')';
+                intro.style.backgroundImage = 'linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),' + 'url(' + img3.innerText + ')';
             };
             if (count == 3) {
-                intro.style.backgroundImage = 'linear-gradient(rgba(10, 14, 31 , 0.507), rgba(18, 57, 104, 0.486)),' + 'url(' + img1.innerText + ')';
+                intro.style.backgroundImage = 'linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),' + 'url(' + img4.innerText + ')';
+            };
+            if (count == 4) {
+                intro.style.backgroundImage = 'linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),' + 'url(' + img1.innerText + ')';
                 count = 0;
             };
             count++

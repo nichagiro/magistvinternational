@@ -7,7 +7,7 @@
       {{-- PRECIOS --}}
       <div class="row row-eq-height justify-content-center">
         <div class="col-lg-4 mb-4">
-          <div class="card wow animated bounceInLeft delay-2s dg-blue">
+          <div class="card wow animated bounceInUp delay-2s dg-blue">
               <h2>1 MES</h2>
               <small>Tarifa Fija</small>
             <div class="card-body">
@@ -39,7 +39,7 @@
           </div>
         </div>
         <div class="col-lg-4 mb-4">
-          <div class="card wow bounceInUp dg-theme">
+          <div class="card wow bounceInUp dg-green">
               <h2>3 MESES</h2>
             <div class="card-body">
               <b class="precio">$27</b>
@@ -70,7 +70,7 @@
           </div>
         </div>
         <div class="col-lg-4 mb-4">
-          <div class="card wow animate bounceInRight delay-2s dg-purple">
+          <div class="card wow animate bounceInUp delay-2s dg-purple">
               <h2>6 MESES</h2>
               <small>1 mes gratis</small>
             <div class="card-body">

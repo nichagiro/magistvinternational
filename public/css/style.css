@@ -5,10 +5,27 @@
     --color-blue-dark: #123968;
     --color-purple: #871993;
     --color-purple-dark: #5c1064;
+    --color-red: #890707 ;
+    --color-red-dark: #610606 ;
+    --color-green: #07870b;
+    --color-green-dark: #064d09;
 
-    --dg-theme: linear-gradient(0deg, var(--color-blue-dark) 0%, var(--color-purple) 50%, var(--color-black) 100%);
+    --dg-red: linear-gradient(0deg, var(--color-red) 0%, var(--color-red-dark) 100%);
+    --dg-green: linear-gradient(0deg, var(--color-green) 0%, var(--color-green-dark) 100%);
     --dg-blue: linear-gradient(90deg, var(--color-black) 0%, var(--color-blue-dark) 100%);
     --dg-purple: linear-gradient(90deg, var(--color-purple) 0%, var(--color-purple-dark) 100%);
+    --dg-theme: linear-gradient(0deg, var(--color-blue-dark) 0%, var(--color-purple) 50%, var(--color-black) 100%);
+}
+
+.dg-red {
+    background: var(--dg-red);
+}
+
+.dg-green {
+    background: var(--dg-green);
+}
+.dg-blue {
+    background: var(--dg-blue);
 }
 
 .dg-blue {
@@ -217,12 +234,12 @@ h6 {
     height: 100vh
 }
 
-.intro-img{
-    background-image: linear-gradient(rgba(10, 14, 31, 0.507), rgba(18, 57, 104, 0.486)), url(../img/sing.webp);
+.intro-img {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/sing.webp);
 }
 
-.intro-img-resellers{
-    background-image: linear-gradient(rgba(10, 14, 31, 0.507), rgba(18, 57, 104, 0.486)), url(../img/stronge.webp);
+.intro-img-resellers {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/series.webp);
 }
 
 #intro .intro-img {
@@ -712,7 +729,7 @@ h6 {
 }
 
 #why-us .card {
-    border-color: var(--color-blue);
+    border-color: var(--color-purple-dark);
     border-radius: 10px;
     margin: 0 15px;
     padding: 15px 0;
@@ -1415,6 +1432,7 @@ h6 {
     .back-to-top {
         bottom: 15px
     }
+
     .my-md-5 {
         margin-top: 5rem;
         margin-bottom: 5rem;
@@ -1501,7 +1519,8 @@ h6 {
     #header.header-scrolled {
         height: 70px
     }
-    .mt-xs-1{
+
+    .mt-xs-1 {
         margin-top: 1rem;
     }
 

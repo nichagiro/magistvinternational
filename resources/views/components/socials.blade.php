@@ -24,17 +24,21 @@
 </style>
 
 <div class="container-social">
-    <a 
-        href="https://www.instagram.com/magistvinter/"
-        class="socials bg-purple my-1 shadow"
-        >
-        <i class="fab fa-instagram"></i>
-    </a>
-    <a 
-        href=""
-        class="socials bg-blue my-1 shadow"
-        >
-        <i class="fab fa-telegram-plane"></i>
-    </a>        
+    @if ($instagram)
+        <a 
+            href="https://www.instagram.com/magistvinter/"
+            class="socials bg-purple my-1 shadow"
+            >
+            <i class="fab fa-instagram"></i>
+        </a>
+    @endif
+    @if ($telegram)        
+        <a 
+            href=""
+            class="socials bg-blue my-1 shadow"
+            >
+            <i class="fab fa-telegram-plane"></i>
+        </a>        
+    @endif
 </div>
 
