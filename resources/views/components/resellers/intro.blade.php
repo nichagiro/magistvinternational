@@ -17,10 +17,6 @@
                 <i class="fas fa-check-circle"></i>
                 <b>Soporte demos de 6 horas</b>
             </li>
-            <li class="">
-                <i class="fas fa-check-circle"></i>
-                <b>Pagos en dolares</b>
-            </li>
         </ul>
       </div>
     </div>

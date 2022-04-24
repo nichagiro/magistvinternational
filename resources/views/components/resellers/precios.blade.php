@@ -2,7 +2,14 @@
     <div class="px-3">
         <header class="section-header">
             <h3>PLANES RESELLERS</h3>
-            <p>Nuestro objetivo principal es generar un vínculo de compañerismo y solidaridad con nuestros revendedores que perdure a lo largo de los años.</p>
+            <p class="text-white w-75 text-left">            
+                Una oportunidad de construir tu propio negocio independiente, puedes trabajar donde quieras y 
+                cuándo quieras, relacionándote con tus clientes desde la comodidad de tu hogar. con una manera
+                 muy sencilla y fácil, una vez que te conviertes en revendedor, comenzarás a trabajar al instante.
+                 <br><br>
+                Nuestro objetivo principal es generar un vínculo de compañerismo y solidaridad con nuestros 
+                revendedores que perdure a lo largo de los años.
+            </p>
         </header>
         <div class="row row-eq-height w-100 justify-content-center">
             <div class="col-lg-4 mb-4">
@@ -222,11 +229,5 @@
                 </div>
             </div>
         </div>
-        <div class="container">
-            <p class="text-white">
-                Una oportunidad de construir su propio negocio independiente, puede trabajar dónde quisiera y cuándo quisiera, relacionándose con sus clientes dese la comodidad de su hogar. Con una manera muy sencilla y fácil, una vez que te conviertes en revendedor, comienzas a trabajar al instante.
-            </p>
-        </div>
     </div>
 </section>
-
