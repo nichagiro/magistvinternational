@@ -6,7 +6,6 @@
   <x-home.suscripcion/> 
   <x-home.invitacionReseller/>   
   <x-home.vod/>    
-  <x-home.pagos/>
 
   {{-- IAMGES CARRUSEL --}}
   <span id="slider-1"  class="d-none">{{asset('img/sing.webp')}}</span>

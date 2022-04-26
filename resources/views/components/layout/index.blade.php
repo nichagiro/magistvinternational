@@ -71,7 +71,7 @@
   <link href="{{ asset('lib/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
   <link href="{{ asset('lib/animate/animate.min.css') }}" rel="stylesheet">
   <link href="{{ asset('lib/owlcarousel/assets/owl.carousel.min.css') }}" rel="stylesheet">
-  <link href="{{ asset('css/style.css') }}" rel="stylesheet">
+  <link href="{{ asset('css/style.min.css') }}" rel="stylesheet">
   <link href="{{ asset('css/animacion.css') }}"  rel="stylesheet">
 </head>
 <body class="{{$bodyClass}}">
