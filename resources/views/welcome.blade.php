@@ -1,4 +1,4 @@
-<x-layout.index :seo="$seo" :bodyClass="$bodyClass">
+<x-layout :seo="$seo" :bodyClass="$bodyClass">
   <x-intro-home/> 
   <x-home.paquetes-incluidos/>
   <x-exclusivos/>
@@ -13,6 +13,6 @@
   <span id="slider-3"  class="d-none">{{asset('img/tinder.webp')}}</span>
   <span id="slider-4"  class="d-none">{{asset('img/dog-zapato_1.webp')}}</span>
 
-</x-layout.index>
+</x-layout>
 
 
