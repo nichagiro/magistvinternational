@@ -1,10 +1,10 @@
 <x-layout.index :seo="$seo" :bodyClass="$bodyClass">
   <x-home.intro/> 
-  <x-home.paquetesIncluidos/>
+  <x-home.paquetes-incluidos/>
   <x-home.exclusivos/>
   <x-home.deportes/>
   <x-home.suscripcion/> 
-  <x-home.invitacionReseller/>   
+  <x-home.invitacion-reseller/>   
   <x-home.vod/>    
 
   {{-- IAMGES CARRUSEL --}}
