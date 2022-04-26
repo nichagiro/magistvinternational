@@ -1,11 +1,11 @@
 <x-layout.index :seo="$seo" :bodyClass="$bodyClass">
-  <x-home.intro/> 
+  <x-intro-home/> 
   <x-home.paquetes-incluidos/>
-  <x-home.exclusivos/>
-  <x-home.deportes/>
-  <x-home.suscripcion/> 
-  <x-home.invitacion-reseller/>   
-  <x-home.vod/>    
+  <x-exclusivos/>
+  <x-deportes/>
+  <x-suscripcion/> 
+  <x-invitacion-reseller/>   
+  <x-vod/>    
 
   {{-- IAMGES CARRUSEL --}}
   <span id="slider-1"  class="d-none">{{asset('img/sing.webp')}}</span>

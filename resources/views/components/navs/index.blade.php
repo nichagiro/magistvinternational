@@ -14,8 +14,8 @@
       <nav id="menu" class="main-nav float-right d-none d-lg-block">
         <ul>
           <li class="active"><a href="/">Inicio</a></li>
-          <li><a href="#services">Deportes</a></li>
-          <li><a href="#why-us">Suscripción</a></li>
+          <li><a href="/#services">Deportes</a></li>
+          <li><a href="/#why-us">Suscripción</a></li>
           <li><a data-toggle="modal" data-target="#app_magis" class="text-white font-weight-bold hand">Aplicación</a></li>
           <li><a href="{{ route('resellers') }}">Resellers</a></li>
         </ul>

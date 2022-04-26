@@ -20,7 +20,7 @@
           </div>
         </div>
         <div>
-          <x-home.descargar/>
+          <x-descargar/>
         </div>
       </div>
     </div>

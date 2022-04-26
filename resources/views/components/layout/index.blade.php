@@ -75,13 +75,13 @@
   <link href="{{ asset('css/animacion.css') }}"  rel="stylesheet">
 </head>
 <body class="{{$bodyClass}}">
-    <x-navs.index/>
+    <x-navs/>
 
     <main id="main">
         {{$slot}}
     </main>
 
-    <x-footer.index/>
+    <x-footer/>
 
     <x-socials telegram={{false}}/>
     <x-whatsapp/>
