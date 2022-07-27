@@ -83,7 +83,6 @@
 
     <x-footer/>
 
-    <x-socials telegram={{false}}/>
     <x-whatsapp/>
     <x-loading/>
 
