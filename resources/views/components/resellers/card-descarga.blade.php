@@ -7,7 +7,7 @@
                     <p class="h4 font-weight-bold pl-2">Fire TV</p>
                 </div>
                 <div class="d-flex justify-content-center mt-2">
-                    <a download href="{{ asset('app/magis_tv_v4.5.1.apk') }}" id="btn-download">Descargar</a>
+                    <a download href="{{ asset('app/magis_tv_v4.8.0.apk') }}" id="btn-download">Descargar</a>
                 </div>
                 <div class="text-center">
                     <small >Fire TV Stick / HD / 4K / Lite / Cube</small>
@@ -19,7 +19,7 @@
                     <p class="h4 font-weight-bold pl-2">Android</p>
                 </div>
                 <div class="d-flex justify-content-center mt-2">
-                    <a download href="{{ asset('app/magis_phone_v4.5.1.apk') }}" id="btn-download">Descargar</a>
+                    <a download href="{{ asset('app/magis_phone_v4.8.0.apk') }}" id="btn-download">Descargar</a>
                 </div>
                 <div class="text-center">
                     <small>Smartphone con android superior a 5.1</small>
@@ -31,7 +31,7 @@
                     <p class="h4 font-weight-bold pl-2">Android TV</p>
                 </div>
                 <div class="d-flex justify-content-center mt-2">
-                    <a download href="{{ asset('app/magis_tv_v4.5.1.apk') }}" id="btn-download">Descargar</a>
+                    <a download href="{{ asset('app/magis_tv_v4.8.0.apk') }}" id="btn-download">Descargar</a>
                 </div>
                 <div class="text-center">
                     <small>TV BOX / Android TV / Mi Box Xiaomi</small>
